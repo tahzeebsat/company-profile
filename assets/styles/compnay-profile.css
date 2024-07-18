@@ -1,0 +1,107 @@
+.company-profile-hdr {
+    font-family: Lato;
+    font-size: clamp(18px, 4vw, 24px);
+    font-weight: 700;
+    line-height: 32px;
+    color: #0C1529;
+}
+
+.company-profile-sub-hdr {
+    font-family: Lato;
+    font-size: clamp(16px, 2vw, 18px);
+    font-weight: 600;
+    line-height: 26px;
+    color: #353C4D;
+    margin: 12px 0 12px 0;
+}
+
+.tabs-body-part {
+    padding: 40px 0px 0px 0px;
+}
+
+.company-profile-para {
+    font-family: Lato;
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 400;
+    line-height: 28px;
+    color: #5D6370;
+}
+
+.company-profile-spn-para {
+    font-family: Lato;
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 400;
+    line-height: 28px;
+    color: #2384C1;
+}
+
+.profile-bdy-banner-img {
+    width: 100%;
+    margin: 24px 0 24px 0;
+    max-height: 400px;
+}
+
+/* ------table-container------- */
+.table-container {
+    overflow-x: auto !important;
+}
+
+.tble-hdr {
+    color: #2384C1 !important;
+    font-family: var(--font-family-Lato);
+    font-size: clamp(16px, 2vw, 20px);
+    font-weight: 700;
+    background-color: #F7F8FB !important;
+    text-align: left;
+    border: 0;
+    white-space: nowrap;
+    padding: 23px 22px 23px 49px !important;
+    width: 368px;
+    min-width: 240px;
+}
+
+.tble-td-compny-name {
+    font-family: Lato;
+    font-size: 20px;
+    color: #0C1529 !important;
+    font-weight: 700;
+    line-height: 28px;
+    white-space: nowrap;
+    padding: 22px 0px 22px 10px !important;
+    border-bottom: 0.5px solid #AEB1B8;
+}
+
+.tble-td {
+    white-space: nowrap;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 22px 0px 22px 10px !important;
+    color: #5D6370 !important;
+    border-bottom: 0.5px solid #AEB1B8;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .profile-bdy-banner-img {
+        margin: 12px 0 12px 0;
+    }
+    .tabs-body-part {
+        padding: 10px 0px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .table-container {
+        max-width: 576px;
+    }
+}

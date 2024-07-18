@@ -1,0 +1,135 @@
+.faq-banner-new {
+  width: 100%;
+  margin: 32px 0 32px 0;
+}
+
+.faq-banner-mob-new {
+  width: 100%;
+  margin: 12px 0 12px 0;
+}
+
+.tabs-container {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  justify-content: space-between;
+  -ms-overflow-style: none;
+  /* Internet Explorer 10+ */
+  scrollbar-width: none;
+  /* Firefox */
+}
+.tabs-container-inq {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  justify-content: start;http://127.0.0.1:3000/vehicle-information-new.html#
+  -ms-overflow-style: none;
+  /* Internet Explorer 10+ */
+  scrollbar-width: none;
+  /* Firefox */
+  width: 180vw;
+}
+
+.tab {
+  flex: 0 0 auto;
+  padding: 10px 45px 10px 45px;
+  margin-right: 10px;
+  border-radius: 20px;
+  background-color: #f7f8fb;
+  color: #5d6370;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.tab.active {
+  background-color: #d4ecfa;
+  color: #0c1529;
+}
+
+.tab:hover {
+  background-color: #d4ecfa;
+}
+
+.tab-content {
+  display: none;
+  /* margin-top: 20px; */
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.mt-32 {
+  margin-top: 32px;
+}
+
+.faqs-header-texture-qtion {
+  color: #020408;
+  font-family: Sofia Pro;
+  font-size: clamp(16px, 2vw, 24px);
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.018em;
+  text-align: left;
+}
+.form-label-rec {
+  font-family: var(--font-family-Lato);
+  font-size: clamp(14px, 2vw, 18px);
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+  color: #5d6370;
+}
+.faq-stil-qtin .form-texarea-inq {
+  background-color: #f6f6f8;
+}
+.stil-qtn-place-input {
+  height: 45px;
+  background-color: #f6f6f8;
+}
+.check-box-lbl-rec {
+  font-family: var(--font-family-Lato);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #051128;
+  padding-top: 2px;
+}
+.update-inquiry-btn {
+    font-family: var(--font-family-Lato);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    height: 50px;
+    /* background-color: #2A9FE8; */
+    border: 0;
+    border-radius: 4px;
+    padding: 16px 10px 16px 10px;
+}
+.faqs-header-texture-qtion{
+    padding-bottom: 32px;
+}
+@media screen and (max-width: 786px) {
+  .tab {
+    padding: 6px 20px 6px 20px;
+    font-size: 14px;
+  }
+
+  .still-question-section {
+    margin-top: 0 !important;
+  }
+  .faqs-header-texture-qtion {
+    padding-bottom: 0px;
+}
+}

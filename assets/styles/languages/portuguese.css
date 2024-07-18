@@ -1,0 +1,256 @@
+.price-calculation {
+  font-size: 14px;
+}
+#search-toyota-used-cars .car-specs-generic .light-text {
+  margin-bottom: 0px;
+  font-family: var(--font-family-Lato);
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: -0.01em;
+  color: var(--color-black-30);
+  font-weight: 400;
+}
+#search-toyota-used-cars .car-specs-generic .dark-text {
+  margin-bottom: 0px;
+  font-family: var(--font-family-Lato);
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: -0.01em;
+  color: var(--color-black-80);
+  font-weight: 700;
+}
+.price-calculator-para {
+  padding-right: 0px;
+}
+.price-calculator .price-calculator-para h2 {
+  font-size: 20px;
+}
+.save-search-title {
+  font-size: 20px;
+}
+/* checkout page */
+#card_modal_sat .form-secion label {
+  font-size: 12px;
+}
+.specs-section {
+  gap: 15px;
+}
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  /* car detail */
+  .car-detail-specs-generic .car-detail-specs-main {
+    font-size: 14px !important;
+  }
+  .car-detail-specs-generic .car-detail-specs-sub {
+    font-size: 14px !important;
+  }
+  .car-detail-specs-generic .car-detail-specs-sub {
+    line-height: 20px;
+  }
+  .seperator-dots {
+    font-size: 14px !important;
+  }
+  .col-8.mt-33.mt-33-car-detail {
+    width: 57.666667%;
+  }
+  .col-4.mt-33.mt-33-car-detail {
+    width: 42.333333%;
+  }
+  /* reserve car css */
+  .reserve-car-main .reservie-car-title {
+    font-size: 10px !important;
+    line-height: 20px;
+  }
+  .reserve-car-main .reserve-car-detail-sub {
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .reserve-seperator-dots {
+    font-size: 10px !important;
+  }
+  /* checkout page */
+  .specs-section {
+    gap: 14px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+  /* car detail */
+  .car-detail-specs-generic .car-detail-specs-main {
+    font-size: 12px !important;
+    line-height: 12px !important;
+  }
+  .car-detail-specs-generic .car-detail-specs-sub {
+    line-height: 23px;
+  }
+  .seperator-dots {
+    font-size: 14px !important;
+  }
+  .col-8.mt-33.mt-33-car-detail {
+    width: 57.666667%;
+  }
+  .col-4.mt-33.mt-33-car-detail {
+    width: 42.333333%;
+  }
+  /* reserve car css */
+  .reserve-car-main .reservie-car-title {
+    font-size: 10px !important;
+    line-height: 20px;
+  }
+  .reserve-car-main .reserve-car-detail-sub {
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .reserve-seperator-dots {
+    font-size: 10px !important;
+  }
+  /* checkout page */
+  .specs-section {
+    gap: 10px;
+  }
+  .specs-section-item h4 {
+    font-size: var(--font-size-10);
+  }
+  /* track order */
+  .track-ordr-btn {
+    height: 44px;
+  }
+  /* country */
+  .secondary-banar-btn {
+    line-height: normal !important;
+    max-height: 41px !important;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1023px) {
+  /* country */
+  .secondary-banar-btn {
+    line-height: normal !important;
+}
+  /* car detail */
+  .car-detail-specs-generic .car-detail-specs-main {
+    font-size: 12px !important;
+    line-height: 12px !important;
+  }
+  .car-detail-specs-generic .car-detail-specs-sub {
+    line-height: 23px;
+  }
+  .seperator-dots {
+    font-size: 14px !important;
+  }
+  .col-8.mt-33.mt-33-car-detail {
+    width: 57.666667%;
+  }
+  .col-4.mt-33.mt-33-car-detail {
+    width: 42.333333%;
+  }
+  /* reserve car css */
+  .reserve-car-main .reservie-car-title {
+    font-size: 10px !important;
+    line-height: 20px;
+  }
+  .reserve-car-main .reserve-car-detail-sub {
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .reserve-seperator-dots {
+    font-size: 10px !important;
+  }
+  /* checkout page */
+  .specs-section {
+    gap: 10px;
+  }
+  .specs-section-item h4 {
+    font-size: var(--font-size-10);
+  }
+  /* track order */
+  .track-ordr-btn {
+    height: 44px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* header */
+  .headr-flag-img {
+    align-self: center;
+    height: 13px !important;
+    width: 17px !important;
+  }
+  /* car detail */
+  small.price-title-2.fw-700.cif_port {
+    font-size: 12px;
+  }
+  #features_car_detail ul > li {
+    padding-inline: 0px !important;
+  }
+  /* country */
+  .secondary-banar-btn {
+    line-height: 12px;
+  }
+  .loc-fonts {
+    font-size: var(--font-size-12);
+    line-height: 24px;
+    margin-left: 5px;
+  }
+  #jpananese_used_cars_country_intro p {
+    line-height: 29px;
+  }
+  .main-titlesat-country {
+    line-height: 15px;
+  }
+  #faq_section_tabs_country .list-group-item {
+    height: 40px;
+  }
+  .common-card-sections-country .main-title-country {
+    line-height: 10px;
+  }
+  /* reserve car css */
+  .reserve-car-main .reservie-car-title {
+    font-size: 9px !important;
+    line-height: 20px;
+  }
+  .reserve-car-main .reserve-car-detail-sub {
+    font-size: 9px;
+    line-height: 20px;
+  }
+  .reserve-seperator-dots {
+    font-size: 9px !important;
+  }
+  .specs-section {
+    gap: 7px;
+  }
+  .specs-section-item h4 {
+    font-size: var(--font-size-10);
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 767px) {
+  .res-calender-detail-col {
+    padding-right: 1px;
+  }
+  .reserve-car-main .reservie-car-title {
+    font-size: 12px;
+    line-height: 30px;
+    white-space: nowrap;
+  }
+  .reserve-car-main .reserve-car-detail-sub {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .reserve-seperator-dots {
+    font-size: 8px !important;
+  }
+  .buttonsused-cars a {
+    line-height: 12px;
+    max-width: 120px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 399px) {
+  .buttonsused-cars a {
+    line-height: 11px;
+  }
+  /* reserve cars */
+  .reserve-car-main .reservie-car-title {
+    font-size: 10px !important;
+  }
+  .text-cwrap {
+    padding-inline: 0px;
+  }
+}
