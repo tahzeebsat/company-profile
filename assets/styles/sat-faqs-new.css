@@ -24,12 +24,8 @@
   overflow-x: auto;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
-  justify-content: start;http://127.0.0.1:3000/vehicle-information-new.html#
-  -ms-overflow-style: none;
-  /* Internet Explorer 10+ */
   scrollbar-width: none;
-  /* Firefox */
-  width: 180vw;
+  width: 95vw;
 }
 
 .tab {

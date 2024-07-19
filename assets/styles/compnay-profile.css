@@ -49,22 +49,22 @@
 .tble-hdr {
     color: #2384C1 !important;
     font-family: var(--font-family-Lato);
-    font-size: clamp(16px, 2vw, 20px);
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 600;
     background-color: #F7F8FB !important;
     text-align: left;
     border: 0;
     white-space: nowrap;
     padding: 23px 22px 23px 49px !important;
-    width: 368px;
-    min-width: 240px;
+    /* width: 368px;
+    min-width: 240px; */
 }
 
 .tble-td-compny-name {
     font-family: Lato;
-    font-size: 20px;
+    font-size: 18px;
     color: #0C1529 !important;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 28px;
     white-space: nowrap;
     padding: 22px 0px 22px 10px !important;
@@ -75,18 +75,64 @@
     white-space: nowrap;
     font-family: Lato;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 28px;
     padding: 22px 0px 22px 10px !important;
     color: #5D6370 !important;
     border-bottom: 0.5px solid #AEB1B8;
 }
 
+/* ----inwuity-form css---- */
+.form-label-inquirys {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #344054;
+}
 
+.comman-input-field-inq {
+    height: 40px;
+    border: 1px solid #d0d5dd;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #667085;
+    border-radius: 4px !important;
+    background-size: 16px 9px;
+}
 
+.mb-24 {
+    margin-bottom: 24px;
+}
+.inquiru-button {
+    border: 1px solid #2384C1;
+    background-color: transparent;
+    color: #2384C1; 
+    height: 46px;
+    font-size: 18px;
+    font-family: Lato;
+    font-weight: 500;
+    line-height: 26px;
+    margin-top: 32px;
+}
 
-
-
+.inquiru-button:hover,
+.inquiru-button:active,
+.inquiru-button:focus,
+.btn-check:checked+.inquiru-button,
+.inquiru-button.active,
+.inquiru-button.show,
+.inquiru-button:first-child:active,
+:not(.btn-check)+.inquiru-button:active {
+    color: white;
+    background-color: #2384C1;
+    border-color: #2384C1;
+}
 
 
 
@@ -95,13 +141,48 @@
     .profile-bdy-banner-img {
         margin: 12px 0 12px 0;
     }
+
     .tabs-body-part {
         padding: 10px 0px 0px 0px;
+    }
+
+    .tble-hdr {
+        font-size: 16px;
+    }
+
+    .tble-td {
+        font-size: 16px;
+    }
+
+    .table-container {
+        width: 95vw;
+    }
+
+    .tble-td-compny-name {
+        font-size: 16px;
+    }
+    .tble-hdr {
+        padding: 10px 10px 10px 10px !important;
+    }
+    .tble-td {
+        padding:10px 10px 10px 10px !important;
     }
 }
 
 @media screen and (max-width: 576px) {
-    .table-container {
-        max-width: 576px;
+    .tble-hdr {
+        font-size: 14px;
+    }
+    .tble-td-compny-name {
+        font-size: 14px;
+    }
+    .tble-td {
+        font-size: 16px;
+    }
+    .tble-hdr {
+        padding: 10px 10px 10px  10px !important;
+    }
+    .tble-td {
+        padding:10px 10px 10px 10px !important;
     }
 }
