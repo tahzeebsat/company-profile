@@ -12,10 +12,57 @@
     <link rel="stylesheet" href="assets/styles/newDashborad.css">
     <link rel="stylesheet" href="assets/styles/compnay-profile.css">
     <link rel="stylesheet" href="assets/styles/sat-faqs-new.css">
+    <link rel="stylesheet" href="assets/styles/header-footer.css">
     <title>Company Profile</title>
+
 </head>
 
 <body class="bg-white-900">
+    <!-- Top-Header -->
+    <section class="top-navbar-header">
+        <nav class="navbar navbar-expand-lg py-3">
+            <div class="container-fluid px-5">
+                <a href="#" class="navbar-brand">
+                    <!-- Logo Image -->
+                    <img src="assets/images/logo/logo-satjapan.png" width="145" alt=""
+                        class="d-inline-block align-middle me-2">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav  ms-auto">
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link nav-link-top-text">New Cars <span class="visually-hidden">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link nav-link-top-text">Used Cars</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link nav-link-top-text">Auto Parts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link nav-link-top-text">Company Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link nav-link-top-text">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link nav-link-top-text">inquiry Form</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link nav-link-top-text">Careers</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
     <section class="container-fluid" id="dashboard_selection">
         <div class="grid-danshboard">
             <div class="dash-item-1">
@@ -26,7 +73,7 @@
                                     <use href="#business-information-icon"></use>
                                 </svg> Business Information</a>
                         </li>
-                        <li >
+                        <li>
                             <a href="company-profile.html"><svg class="dash-icon">
                                     <use href="#company-profile-icon"></use>
                                 </svg>Company Profile</a>
@@ -63,11 +110,15 @@
                     <div class="row d-md-none">
                         <div class="row d-md-none">
                             <div class="tabs-container-inq py-3">
-                                <a class="tab active" href="business-information.html" data-tab="how-to-pay">Business Information</a>
-                                <a class="tab " href="company-profile.html" data-tab="vehicle-information">Company Profile</a>
-                                <a class="tab " href="transaction-flow.html" data-tab="inquiry-form">Transaction flow</a>
+                                <a class="tab active" href="business-information.html" data-tab="how-to-pay">Business
+                                    Information</a>
+                                <a class="tab " href="company-profile.html" data-tab="vehicle-information">Company
+                                    Profile</a>
+                                <a class="tab " href="transaction-flow.html" data-tab="inquiry-form">Transaction
+                                    flow</a>
                                 <a class="tab" href="inquiry-form.html" data-tab="vehicle-condition">Inquiry Form</a>
-                                <a class="tab" href="recruitment-information.html" data-tab="vehicle-condition">Recruitment Information</a>
+                                <a class="tab" href="recruitment-information.html"
+                                    data-tab="vehicle-condition">Recruitment Information</a>
                                 <a class="tab" href="related-links.html" data-tab="vehicle-condition">Related Links</a>
                             </div>
                         </div>
@@ -79,13 +130,108 @@
                         </section>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </section>
+
+    <!-- footer  -->
+    <footer class="company-profile-footer ">
+        <!-- <div class="container-fluid d-lg-block d-md-block d-none d-sm-none justify-content-center px-3 px-lg-5"> -->
+        <div class="container-fluid footer-inner-section px-5">
+            <div class="row">
+                <div class="col d-flex justify-content-between">
+                    <div class="address-setion">
+                        <a href="#" class="d-flex align-items-center mb-3">
+                            <img src="assets/images/logo/logo-footer.png" class="fotr-logo" alt="">
+                        </a>
+                        <ul class="social-address">
+                            <li class="d-flex justify-content-start pt-0"><img
+                                    src="assets/images/common/icons/phone-icon.png" class="address-con" alt=""><span
+                                    class="comn-fotr-head-sub">0120-50-8460</span></li>
+                            <li class="d-flex justify-content-start"><img src="assets/images/common/icons/mail-icon.png"
+                                    class="address-con" alt=""><span class="comn-fotr-head-sub">info@satjapan.com</span>
+                            </li>
+                            <li class="d-flex justify-content-start pb-0"><img
+                                    src="assets/images/common/icons/location-icon.png" class="address-con" alt="">
+                                <span class="comn-fotr-head-sub">156-1 Hatanaka, Shimokawa, Izumicho,
+                                    Iwaki City, Fukushima Prefecture, 971-8183</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="company-pages-setion">
+                        <h2 class="overview-head-ftr mb-24 mb-10">
+                            Company Overview
+                        </h2>
+                        <ul>
+                            <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i> About SAT</li>
+                            <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i>Why Choose SAT</li>
+                            <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i>Company Profile</li>
+                            <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i>Terms & Conditions</li>
+                            <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i>Cookie Policy</li>
+                        </ul>
+                    </div>
+                    <div class="company-pages-setion">
+                        <h2 class="overview-head-ftr mb-24 mb-10">
+                            Company Overview
+                        </h2>
+                        <ul>
+                            <li class="make-by-li mb-6"><i class="fas fa-chevron-right"></i> About SAT</li>
+                            <li class="make-by-li mb-6"><i class="fas fa-chevron-right"></i>Why Choose SAT</li>
+                            <li class="make-by-li mb-6"><i class="fas fa-chevron-right"></i>Company Profile</li>
+                            <li class="make-by-li mb-6"><i class="fas fa-chevron-right"></i>Terms & Conditions</li>
+                            <li class="make-by-li mb-6"><i class="fas fa-chevron-right"></i>Cookie Policy</li>
+                        </ul>
+                    </div>
+                    <div class="social-link-setion">
+                        <div>
+                            <h2 class="overview-head-ftr mb-24 mb-10">
+                                Company Overview
+                            </h2>
+                            <span class="d-flex social-icons">
+                                <a href="javascript:;" class="text-decoration-none">
+
+                                    <img src="assets/images/common/icons/facebook-icon.png" alt="" class="social-icons-inner">
+                                </a>
+                                <a href="javascript:;" class="text-decoration-none">
+
+                                    <img src="assets/images/common/icons/instagram-icon.png" alt="" class="social-icons-inner">
+                                </a>
+                                <a href="javascript:;" class="text-decoration-none">
+
+                                    <img src="assets/images/common/icons/x-icon.png" alt="" class="social-icons-inner">
+                                </a>
+                                <a href="javascript:;" class="text-decoration-none">
+
+                                    <img src="assets/images/common/icons/youtube-icon.png" alt="" class="social-icons-inner">
+                                </a>
+                            </span>
+                        </div>
+                        <div class="mailing-section">
+                            <h2 class="overview-head-ftr">
+                                Join Our Mailing List
+                            </h2>
+                            <form action="">
+                                <div class="input-group" id="mail_to_fotr">
+                                    <input type="text" class="form-control mailin-form-input" placeholder="Enter your email"
+                                        aria-label="Enter your email" aria-describedby="button-em">
+                                    <button class="btn" type="submit" id="button-em">Subscribe</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-section">
+            <p class="copyright-para"> <span class="copyright-para pe-1">&copy</span> Copyrights, Shine Auto Trading . All Rights Reserved.</p>
+        </div>
+        </div>
+        
+    </footer>
+
     <!-- svgs for navbar-->
     <section class="d-none">
-        <!-- inquiry-tab-svg-->
+        <!-- Company Profile-->
         <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
             <symbol id="inquiry-tabs-mail">
                 <path
@@ -122,8 +268,6 @@
                     d="M16.686 13.5923L15.3899 12.2961L16.686 11C17.0265 10.6595 17.2966 10.2553 17.4809 9.81038C17.6651 9.36551 17.76 8.8887 17.76 8.40717C17.76 7.92565 17.6651 7.44883 17.4809 7.00396C17.2966 6.55909 17.0265 6.15487 16.686 5.81438C16.3455 5.47389 15.9413 5.2038 15.4964 5.01953C15.0516 4.83525 14.5748 4.74041 14.0932 4.74041C13.6117 4.74041 13.1349 4.83525 12.69 5.01953C12.2451 5.2038 11.8409 5.47389 11.5004 5.81438L10.2043 7.11055L8.90811 5.81438L10.2043 4.51821C11.2386 3.50064 12.633 2.93298 14.084 2.93889C15.5349 2.9448 16.9247 3.52379 17.9506 4.54976C18.9766 5.57572 19.5556 6.96553 19.5615 8.41645C19.5674 9.86737 18.9998 11.2618 17.9822 12.2961L16.686 13.5923ZM14.0928 16.1855L12.7966 17.4817C12.2874 17.9993 11.6808 18.4109 11.0117 18.6928C10.3427 18.9747 9.6244 19.1214 8.89837 19.1244C8.17234 19.1273 7.4529 18.9865 6.78157 18.71C6.11023 18.4336 5.50028 18.0269 4.98689 17.5135C4.4735 17.0001 4.06684 16.3902 3.79036 15.7188C3.51389 15.0475 3.37307 14.3281 3.37602 13.602C3.37898 12.876 3.52565 12.1577 3.80759 11.4887C4.08952 10.8196 4.50114 10.213 5.01869 9.7038L6.31486 8.40763L7.61102 9.7038L6.31486 11C5.97437 11.3405 5.70427 11.7447 5.52 12.1895C5.33573 12.6344 5.24089 13.1112 5.24089 13.5928C5.24089 14.0743 5.33573 14.5511 5.52 14.996C5.70427 15.4408 5.97437 15.8451 6.31486 16.1855C6.65535 16.526 7.05957 16.7961 7.50444 16.9804C7.94931 17.1647 8.42612 17.2595 8.90765 17.2595C9.38917 17.2595 9.86598 17.1647 10.3109 16.9804C10.7557 16.7961 11.1599 16.526 11.5004 16.1855L12.7966 14.8894L14.0928 16.1855ZM14.0928 7.11055L15.3899 8.40763L8.90811 14.8885L7.61102 13.5923L14.0928 7.11146V7.11055Z" />
             </symbol>
         </svg>
-
-
     </section>
     <!-- bootstrap js -->
     <script src="assets/js/bootstrap5vs/js/bootstrap.bundle.min.js"></script>
@@ -131,6 +275,7 @@
     <script src="assets/js/jquery.js"></script>
     <!-- custom script js files -->
     <script src="assets/js/script_h.js"></script>
+
 </body>
 
 </html>

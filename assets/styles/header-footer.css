@@ -1,0 +1,209 @@
+/* company-profile-footer */
+.company-profile-footer {
+    background-color: #014E78;
+    height: 400px;
+}
+
+.footer-inner-section {
+    padding-top: 32px;
+}
+
+.address-setion {
+    width: 28%;
+    align-content: center;
+}
+
+.company-pages-setion {
+    width: 20%;
+}
+
+.by-make-setion {
+    width: 20%;
+
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.mb-6 {
+    margin-bottom: 6px;
+}
+
+.social-link-setion {
+    width: 28%;
+    display: grid;
+}
+
+.comn-fotr-head-sub {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.social-address li {
+    padding-block: 8px;
+    gap: 14px;
+}
+
+.address-con {
+    width: 22px;
+    height: 22px;
+    align-self: center;
+}
+
+.overview-head-ftr {
+    font-family: Lato;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: clamp(16px, 2vw, 20px);
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.make-by-li {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #FFFFFF;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+    gap: 30px;
+}
+
+#mail_to_fotr button {
+    max-height: 2.375rem;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-family: var(--font-family-Lato);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18.92px;
+    letter-spacing: -0.01em;
+    background-color: var(--color-blue-50);
+    color: var(--color-white-900);
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.social-icons-inner {
+    max-width: 32px;
+    height: auto;
+}
+
+.mailing-section {
+    align-content: end;
+}
+
+.copyright-section {
+    border-top: 1px solid #FFFFFF;
+    margin-top: 32px;
+}
+
+.copyright-para {
+    padding-top: 24px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.mailin-form-input {
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #5D6370;
+}
+
+.nav-link-top-text {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #0C1529;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1300px) {
+    .make-by-li {
+        font-size: 16px;
+    }
+
+    .comn-fotr-head-sub {
+        font-size: 16px;
+    }
+
+    .social-icons-inner {
+        max-width: 24px;
+    }
+
+    .social-icons {
+        gap: 20px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1023px) {
+    .comn-fotr-head-sub {
+        font-size: 16px;
+    }
+
+    .make-by-li {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .social-icons-inner {
+        max-width: 20px;
+        height: auto;
+    }
+
+    .social-icons {
+        display: flex;
+        gap: 16px;
+    }
+
+    .copyright-para {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .fotr-logo {
+        max-width: 100px !important;
+        height: auto !important;
+    }
+
+    .overview-head-ftr {
+        font-size: 14px !important;
+        line-height: 26px;
+    }
+
+    .comn-fotr-head-sub {
+        font-size: 12px;
+    }
+
+    .make-by-li {
+        font-size: 12px;
+    }
+
+    .comn-fotr-head-sub {
+        line-height: 20px;
+    }
+
+    .mb-10 {
+        margin-bottom: 10px;
+    }
+}
