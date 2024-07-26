@@ -130,10 +130,22 @@
 
 .nav-link-top-text {
     font-family: Lato;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 20px;
     color: #0C1529;
+}
+
+.nav-link-top-text:hover {
+    color: #2384c1;
+}
+
+.collapse-navbar-main {
+    gap: 30px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1300px) {
@@ -151,6 +163,10 @@
 
     .social-icons {
         gap: 20px;
+    }
+
+    .collapse-navbar-main {
+        gap: 12px;
     }
 }
 
@@ -177,6 +193,18 @@
 
     .copyright-para {
         font-size: 14px;
+    }
+
+    .nav-link-top-text {
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        color: #0C1529;
+    }
+
+    .collapse-navbar-main {
+        gap: 12px;
     }
 }
 
@@ -205,5 +233,74 @@
 
     .mb-10 {
         margin-bottom: 10px;
+    }
+
+    .navbar-toggler {
+        padding: 6px 10px 6px 10px;
+        padding: 6px 10px 6px 10px;
+        font-size: 12px !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .nav-item-custom-cls {
+        border-radius: 8px;
+        cursor: pointer;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: 600;
+        background-color: #F5F6F7;
+        color: #353C4D;
+        padding-left: 10px;
+    }
+
+    .nav-item-custom-cls-mob {
+        cursor: pointer;
+        font-size: 16px;
+        font-family: Lato;
+        background-color: #F5F6F7;
+        padding: 4px 0 4px 18px;
+        margin-bottom: 6px;
+        /* box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 109px 0 rgba(0, 0, 0, 0.19); */
+    }
+
+    .nav-item-custom-cls-mob:hover {
+        background-color: #2384c1;
+        cursor: pointer;
+        color: #FFFFFF;
+    }
+
+    .nav-item-custom-cls:hover {
+        background-color: #2384c1;
+        cursor: pointer;
+        color: #FFFFFF;
+    }
+
+    .nav-link-top-text:hover {
+        color: #FFFFFF !important;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 12px;
+    }
+
+    .collapse-navbar-main {
+        gap: 6px;
+    }
+
+    .nav-link-top-text {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 12px;
+    }
+
+    .collapse-navbar-main {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-toggler {
+        padding: 4px 6px 4px 6px;
+        font-size: 12px !important;
     }
 }

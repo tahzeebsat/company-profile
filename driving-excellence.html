@@ -12,10 +12,9 @@
     <link rel="stylesheet" href="assets/styles/newDashborad.css">
     <link rel="stylesheet" href="assets/styles/compnay-profile.css">
     <link rel="stylesheet" href="assets/styles/sat-faqs-new.css">
-    <link rel="stylesheet" href="assets/styles/plugins/intl-tel-input/intl.css" />
     <link rel="stylesheet" href="assets/styles/header-footer.css">
+    <title>Company Profile</title>
 
-    <title>Inquiry Form</title>
 </head>
 
 <body class="bg-white-900">
@@ -63,160 +62,6 @@
         </nav>
     </section>
 
-    <section class="container-fluid mb-32" id="dashboard_selection">
-        <div class="grid-danshboard">
-            <div class="dash-item-1">
-                <div class="sticy-items-dashboard">
-                    <ul>
-                        <li>
-                            <a href="business-information.html"><svg class="dash-icon">
-                                    <use href="#business-information-icon"></use>
-                                </svg> Business Information</a>
-                        </li>
-                        <li>
-                            <a href="company-profile.html"><svg class="dash-icon">
-                                    <use href="#company-profile-icon"></use>
-                                </svg>Company Profile</a>
-                        </li>
-                        <li>
-                            <a href="transaction-flow.html"><svg class="dash-icon">
-                                    <use href="#transaction-flow-icon"></use>
-                                </svg>Transaction flow</a>
-                        </li>
-                        <li class="selected-option">
-                            <a href="inquiry-form.html"><svg class="dash-icon">
-                                    <use href="#inquiry-tabs-mail"></use>
-                                </svg>Inquiry Form</a>
-                        </li>
-                        <li>
-                            <a href="recruitment-information.html"><svg class="dash-icon">
-                                    <use href="#recruitment-information-icon"></use>
-                                </svg>Recruitment Information
-                            </a>
-                        </li>
-                        <li>
-                            <a href="related-links.html"><svg class="dash-icon">
-                                    <use href="#related-links-icon"></use>
-                                </svg>Related Links
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="dash-item-2">
-                <!-- Request tab -->
-                <div class="tab-pane fade show active" id="v-pills-Request-Car" role="tabpanel"
-                    aria-labelledby="v-pills-Request-Car-tab">
-                    <div class="row d-md-none">
-                        <div class="row d-md-none">
-                            <div class="row d-md-none">
-                                <div class="tabs-container-inq py-3">
-                                    <a class="tab " href="business-information.html" data-tab="how-to-pay">Business
-                                        Information</a>
-                                    <a class="tab " href="company-profile.html" data-tab="vehicle-information">Company
-                                        Profile</a>
-                                    <a class="tab " href="transaction-flow.html" data-tab="inquiry-form">Transaction
-                                        flow</a>
-                                    <a class="tab active" href="inquiry-form.html" data-tab="vehicle-condition">Inquiry
-                                        Form</a>
-                                    <a class="tab" href="recruitment-information.html"
-                                        data-tab="vehicle-condition">Recruitment Information</a>
-                                    <a class="tab" href="related-links.html" data-tab="vehicle-condition">Related
-                                        Links</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade show active" id="v-pills-Inquiry-Form" role="tabpanel"
-                        aria-labelledby="v-pills-Inquiry-Form-tab">
-                        <section class="tabs-body-part">
-                            <div class="form">
-                                <div class="row">
-                                    <h1 class="inquiry-hdr py-3">Inquiry Form:</h1>
-                                    <div class="col-md-4 col-sm-6">
-                                        <div class="mb-24">
-                                            <label for="NameFormControlInput" class="form-label form-label-inquirys">
-                                                Name</label>
-                                            <input type="text" class="form-control comman-input-field-inq rounded-0"
-                                                id="NameFormControlInput" placeholder="Name" />
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-6">
-                                        <div class="mb-24">
-                                            <label for="EmaiFormControlInput" class="form-label form-label-inquirys">
-                                                Email</label>
-                                            <input type="email" class="form-control comman-input-field-inq rounded-0"
-                                                id="EmaiFormControlInput" placeholder="Email" />
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-6">
-                                        <div class="mb-24">
-                                            <label for="CodeFormControlInput" class="form-label form-label-inquirys">
-                                                Post Code</label>
-                                            <select class="form-select comman-input-field-inq"
-                                                aria-label="Default select example">
-                                                <option selected class="slect-texture-slect">1234565</option>
-                                                <option value="1" class="form-sect-inq-open">Select</option>
-                                                <option value="2" class="form-sect-inq-open">Select</option>
-                                                <option value="3" class="form-sect-inq-open">Select</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-6 mb-24">
-                                        <label for="Phone" class="form-label form-label-inquirys">Telephone
-                                            number</label>
-                                        <input type="number" placeholder="Phone"
-                                            class="phone-car-detail form-control  w-100" id="phone-inq-profile" />
-                                        <div class="form-error d-none">We'll never share your email with anyone
-                                            else.</div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-6">
-                                        <div class="mb-24">
-                                            <label for="faxFormControlInput" class="form-label form-label-inquirys">
-                                                Fax number</label>
-                                            <input type="text" class="form-control comman-input-field-inq rounded-0"
-                                                id="faxFormControlInput" placeholder="1234567" />
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-6">
-                                        <div class="mb-24">
-                                            <label for="minicipleFormControlInput"
-                                                class="form-label form-label-inquirys">
-                                                Municipalities</label>
-                                            <select class="form-select comman-input-field-inq"
-                                                aria-label="Default select example">
-                                                <option selected class="slect-texture-slect">12345678</option>
-                                                <option value="1" class="form-sect-inq-open">Select</option>
-                                                <option value="2" class="form-sect-inq-open">Select</option>
-                                                <option value="3" class="form-sect-inq-open">Select</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="">
-                                            <div class="d-flex justify-content-between align-items-md-center">
-                                                <label for="textareaFormControlInput"
-                                                    class="form-label form-label-inquirys">Address, house number,
-                                                    etc.</label>
-                                            </div>
-                                            <textarea class="form-control form-texarea-inq" id="CodeFormControlInput"
-                                                rows="3" placeholder="Address"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex justify-content-center">
-                                        <button type="button" class="btn inquiru-button"> Update Inquiry</button>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
     <!-- footer  -->
     <footer class="company-profile-footer ">
         <!-- <div class="container-fluid d-lg-block d-md-block d-none d-sm-none justify-content-center px-3 px-lg-5"> -->
@@ -313,47 +158,12 @@
                     . All Rights Reserved.</p>
             </div>
         </div>
+
     </footer>
-    <!-- modals start- modals right side-->
-    <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="burger-menu-sidebar"
-        aria-labelledby="dashboardLabel" aria-modal="true" role="dialog">
-        <div class="offcanvas-header justify-content-start">
-            <h5 class="offcanvas-title fs-12 fw-600 clr-black-pure d-flex justify-content-start gap-2 align-items-center cursor-pointer"
-                data-bs-dismiss="offcanvas" aria-label="Close" id="dashboardLabel">
-                <i class="fas fa-chevron-left"></i>
-            </h5>
-        </div>
-        <div class="offcanvas-body pt-3 px-0">
-            <ul class="navbar-nav ">
-                <li class="nav-item active nav-item-custom-cls-mob">
-                    <a href="#" class="nav-link nav-link-top-text">New Cars <span
-                            class="visually-hidden">(current)</span></a>
-                </li>
-                <li class="nav-item nav-item-custom-cls-mob ">
-                    <a href="#" class="nav-link nav-link-top-text">Used Cars</a>
-                </li>
-                <li class="nav-item nav-item-custom-cls-mob">
-                    <a href="#" class="nav-link nav-link-top-text">Auto Parts</a>
-                </li>
-                <li class="nav-item nav-item-custom-cls-mob">
-                    <a href="#" class="nav-link nav-link-top-text">Company Profile</a>
-                </li>
-                <li class="nav-item nav-item-custom-cls-mob">
-                    <a href="#" class="nav-link nav-link-top-text">About Us</a>
-                </li>
-                <li class="nav-item nav-item-custom-cls-mob">
-                    <a href="#" class="nav-link nav-link-top-text">inquiry Form</a>
-                </li>
-                <li class="nav-item nav-item-custom-cls-mob">
-                    <a href="#" class="nav-link nav-link-top-text">Careers</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <!-- modals end-->
+
     <!-- svgs for navbar-->
     <section class="d-none">
-        <!-- inquiry-tab-svg-->
+        <!-- Company Profile-->
         <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
             <symbol id="inquiry-tabs-mail">
                 <path
@@ -390,26 +200,52 @@
                     d="M16.686 13.5923L15.3899 12.2961L16.686 11C17.0265 10.6595 17.2966 10.2553 17.4809 9.81038C17.6651 9.36551 17.76 8.8887 17.76 8.40717C17.76 7.92565 17.6651 7.44883 17.4809 7.00396C17.2966 6.55909 17.0265 6.15487 16.686 5.81438C16.3455 5.47389 15.9413 5.2038 15.4964 5.01953C15.0516 4.83525 14.5748 4.74041 14.0932 4.74041C13.6117 4.74041 13.1349 4.83525 12.69 5.01953C12.2451 5.2038 11.8409 5.47389 11.5004 5.81438L10.2043 7.11055L8.90811 5.81438L10.2043 4.51821C11.2386 3.50064 12.633 2.93298 14.084 2.93889C15.5349 2.9448 16.9247 3.52379 17.9506 4.54976C18.9766 5.57572 19.5556 6.96553 19.5615 8.41645C19.5674 9.86737 18.9998 11.2618 17.9822 12.2961L16.686 13.5923ZM14.0928 16.1855L12.7966 17.4817C12.2874 17.9993 11.6808 18.4109 11.0117 18.6928C10.3427 18.9747 9.6244 19.1214 8.89837 19.1244C8.17234 19.1273 7.4529 18.9865 6.78157 18.71C6.11023 18.4336 5.50028 18.0269 4.98689 17.5135C4.4735 17.0001 4.06684 16.3902 3.79036 15.7188C3.51389 15.0475 3.37307 14.3281 3.37602 13.602C3.37898 12.876 3.52565 12.1577 3.80759 11.4887C4.08952 10.8196 4.50114 10.213 5.01869 9.7038L6.31486 8.40763L7.61102 9.7038L6.31486 11C5.97437 11.3405 5.70427 11.7447 5.52 12.1895C5.33573 12.6344 5.24089 13.1112 5.24089 13.5928C5.24089 14.0743 5.33573 14.5511 5.52 14.996C5.70427 15.4408 5.97437 15.8451 6.31486 16.1855C6.65535 16.526 7.05957 16.7961 7.50444 16.9804C7.94931 17.1647 8.42612 17.2595 8.90765 17.2595C9.38917 17.2595 9.86598 17.1647 10.3109 16.9804C10.7557 16.7961 11.1599 16.526 11.5004 16.1855L12.7966 14.8894L14.0928 16.1855ZM14.0928 7.11055L15.3899 8.40763L8.90811 14.8885L7.61102 13.5923L14.0928 7.11146V7.11055Z" />
             </symbol>
         </svg>
-
-
     </section>
+    <!-- modals start-->
+    <!-- modals right side -->
+    <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="burger-menu-sidebar"
+        aria-labelledby="dashboardLabel" aria-modal="true" role="dialog">
+        <div class="offcanvas-header justify-content-start">
+            <h5 class="offcanvas-title fs-12 fw-600 clr-black-pure d-flex justify-content-start gap-2 align-items-center cursor-pointer"
+                data-bs-dismiss="offcanvas" aria-label="Close" id="dashboardLabel">
+                <i class="fas fa-chevron-left"></i>
+            </h5>
+        </div>
+        <div class="offcanvas-body pt-0 px-0">
+            <ul class="navbar-nav ">
+                <li class="nav-item active nav-item-custom-cls-mob">
+                    <a href="#" class="nav-link nav-link-top-text">New Cars <span
+                            class="visually-hidden">(current)</span></a>
+                </li>
+                <li class="nav-item nav-item-custom-cls-mob ">
+                    <a href="#" class="nav-link nav-link-top-text">Used Cars</a>
+                </li>
+                <li class="nav-item nav-item-custom-cls-mob">
+                    <a href="#" class="nav-link nav-link-top-text">Auto Parts</a>
+                </li>
+                <li class="nav-item nav-item-custom-cls-mob">
+                    <a href="#" class="nav-link nav-link-top-text">Company Profile</a>
+                </li>
+                <li class="nav-item nav-item-custom-cls-mob">
+                    <a href="#" class="nav-link nav-link-top-text">About Us</a>
+                </li>
+                <li class="nav-item nav-item-custom-cls-mob">
+                    <a href="#" class="nav-link nav-link-top-text">inquiry Form</a>
+                </li>
+                <li class="nav-item nav-item-custom-cls-mob">
+                    <a href="#" class="nav-link nav-link-top-text">Careers</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- modals end-->
     <!-- bootstrap js -->
     <script src="assets/js/bootstrap5vs/js/bootstrap.bundle.min.js"></script>
     <!-- Jquery -->
     <script src="assets/js/jquery.js"></script>
     <!-- custom script js files -->
     <script src="assets/js/script_h.js"></script>
-    <!-- phone utils js -->
-    <script src="assets/js/plugins/intl-tel-input/intl.js"></script>
-    <script src="assets/js/plugins/intl-tel-input/intlutils.js"></script>
-    <!-- // phone input -->
-    <script>
-        // phone input 1
-        const itlinputOne = document.querySelector("#phone-inq-profile");
-        const itiOne = window.intlTelInput(itlinputOne, {
-            useFullscreenPopup: false,
-        });
-    </script>
+
 </body>
 
 </html>

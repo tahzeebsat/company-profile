@@ -41,9 +41,14 @@
     max-height: 400px;
 }
 
+.mb-32 {
+    margin-bottom: 32px;
+}
+
 /* ------table-container------- */
 .table-container {
     overflow-x: auto !important;
+    max-width: 73vw;
 }
 
 .tble-hdr {
@@ -109,10 +114,11 @@
 .mb-24 {
     margin-bottom: 24px;
 }
+
 .inquiru-button {
     border: 1px solid #2384C1;
-    background-color: transparent;
-    color: #2384C1; 
+    background-color: #2384C1;
+    color: white;
     height: 46px;
     font-size: 18px;
     font-family: Lato;
@@ -137,7 +143,31 @@
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1130px) {
+    .tble-hdr {
+        padding: 0 10px 10px 20px !important;
+        font-size: 14px;
+    }
+
+    .tble-td-compny-name {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 10px 0px 10px 10px !important;
+    }
+
+    .tble-td {
+        white-space: nowrap;
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        padding: 10px 0px 10px 10px !important;
+        color: #5D6370 !important;
+        border-bottom: 0.5px solid #AEB1B8;
+    }
+}
+
+@media screen and (max-width: 767px) {
     .profile-bdy-banner-img {
         margin: 12px 0 12px 0;
     }
@@ -161,11 +191,18 @@
     .tble-td-compny-name {
         font-size: 16px;
     }
+
     .tble-hdr {
         padding: 10px 10px 10px 10px !important;
     }
+
     .tble-td {
-        padding:10px 10px 10px 10px !important;
+        padding: 10px 10px 10px 10px !important;
+    }
+
+    .table-container {
+        overflow-x: auto !important;
+        max-width: 95vw;
     }
 }
 
@@ -173,16 +210,20 @@
     .tble-hdr {
         font-size: 14px;
     }
+
     .tble-td-compny-name {
         font-size: 14px;
     }
+
     .tble-td {
         font-size: 16px;
     }
+
     .tble-hdr {
-        padding: 10px 10px 10px  10px !important;
+        padding: 10px 10px 10px 10px !important;
     }
+
     .tble-td {
-        padding:10px 10px 10px 10px !important;
+        padding: 10px 10px 10px 10px !important;
     }
 }

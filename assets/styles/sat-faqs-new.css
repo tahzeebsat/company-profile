@@ -118,8 +118,8 @@
 }
 @media screen and (max-width: 786px) {
   .tab {
-    padding: 6px 20px 6px 20px;
-    font-size: 14px;
+    padding: 4px 14px 4px 14px;
+    font-size: 12px;
   }
 
   .still-question-section {

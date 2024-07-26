@@ -1,25 +1,3 @@
-.form-error {
-  font-size: 10px;
-  color: red;
-  margin-top: 3px;
-}
-
-#breadcrumb-section {
-  font-family: var(--font-family-Lato);
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 20px;
-  letter-spacing: -0.01em;
-  color: #353c4d;
-  padding-block: 19px;
-}
-
-.sticy-items-dashboard {
-  top: 45px;
-  position: -webkit-sticky !important;
-  position: sticky !important;
-}
-
 .grid-danshboard {
   display: grid;
   grid-template-columns: 1fr 4fr;
@@ -137,6 +115,7 @@
   color: #344054;
   margin-bottom: 6px;
 }
+
 /* .review-guest-check:checked{
   background-color: #2384C1!important;
     border-color: #2384C1 !important;  
@@ -151,6 +130,7 @@
   letter-spacing: -0.01em;
   color: #667085;
 }
+
 .input-field-set input[type="text"]::placeholder {
   font-family: Lato;
   font-size: 14px;
@@ -159,6 +139,7 @@
   letter-spacing: -0.01em;
   color: #667085;
 }
+
 .input-field-set select {
   height: 40px;
   border: 1px solid #d0d5dd;
@@ -185,6 +166,7 @@
   letter-spacing: -0.01em;
   color: #667085;
 }
+
 .phone-car-detail::placeholder {
   color: #667085 !important;
 }
@@ -754,6 +736,7 @@ h2.title-review {
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }
+
 .list-save-search li {
   font-family: Lato;
   font-size: 14px;
@@ -818,6 +801,7 @@ h2.title-review {
 .error-img {
   margin-bottom: 50px;
 }
+
 .error-img .mt-5 {
   text-align: center;
 }
@@ -840,10 +824,33 @@ h2.title-review {
 .erro-imh-main {
   height: 100vh;
 }
+
 .error-img-inner {
   display: grid;
   justify-items: center;
 }
+
+
+
+@media screen and (min-width: 1100px) and (max-width: 1560px) {
+  .dash-item-1 ul li a {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    padding: 17px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #b2aebf;
+    font-family: Lato;
+    font-size: 14px;
+  }
+
+  .dash-item-1 {
+    padding: 22px 20px;
+    min-width: 264px;
+  }
+}
+
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
   .dash-item-1 ul li a {
     gap: 20px;
@@ -855,6 +862,10 @@ h2.title-review {
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1199px) {
+  .dash-item-1 {
+    padding: 24px 0px;
+    min-width: 225px;
+}
   .dash-item-1 ul li a {
     gap: 11px;
     padding: 14px 15px;
@@ -868,11 +879,6 @@ h2.title-review {
   .grid-danshboard {
     grid-template-columns: 1fr 4fr;
     gap: 20px;
-  }
-
-  .dash-item-1 {
-    padding: 24px 23px;
-    min-width: 225px;
   }
 
   .dash-itemd-3 .tab-nav-link {
@@ -932,7 +938,7 @@ h2.title-review {
   }
 
   .dash-item-1 {
-    padding: 24px 21px;
+    padding: 10px 0px;
     min-width: 205px;
   }
 
@@ -1023,7 +1029,7 @@ h2.title-review {
   }
 
   .dash-item-1 {
-    padding: 24px 20px;
+    padding: 24px 0;
     min-width: 183px;
   }
 
@@ -1086,6 +1092,7 @@ h2.title-review {
   .sidbardashboard-items ul li {
     margin-bottom: 6px;
   }
+
   .dash-item-1 ul li a {
     gap: 11px;
     padding: 14px 15px;
@@ -1284,6 +1291,7 @@ h2.title-review {
   .start-main-section {
     margin-top: 8px;
   }
+
   .list-save-search {
     height: 68px;
   }
@@ -1298,9 +1306,11 @@ h2.title-review {
   .dashboard-error-img {
     max-width: 210px;
   }
+
   .save-search-fil {
     grid-template-columns: repeat(1, 1fr);
   }
+
   #save_search_modal .body-modal {
     padding-block: calc(20px - 16px);
     padding-left: 0px;
@@ -1312,6 +1322,7 @@ h2.title-review {
   .list-save-search {
     height: 66px;
   }
+
   .total-match-item h3 {
     margin-bottom: 0px;
     font-size: 16px;
@@ -1357,6 +1368,7 @@ h2.title-review {
     width: 100%;
   }
 }
+
 a.pagination-active {
   color: #2a9fe8 !important;
 }

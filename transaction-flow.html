@@ -12,10 +12,56 @@
     <link rel="stylesheet" href="assets/styles/newDashborad.css">
     <link rel="stylesheet" href="assets/styles/compnay-profile.css">
     <link rel="stylesheet" href="assets/styles/sat-faqs-new.css">
+    <link rel="stylesheet" href="assets/styles/header-footer.css">
+
     <title>Company Profile</title>
 </head>
 
 <body class="bg-white-900">
+   <!-- Top-Header -->
+   <section class="top-navbar-header">
+    <nav class="navbar navbar-expand-lg py-3">
+        <div class="container-fluid px-5">
+            <a href="#" class="navbar-brand">
+                <!-- Logo Image -->
+                <img src="assets/images/logo/logo-satjapan.png" width="145" alt=""
+                    class="d-inline-block align-middle me-2">
+            </a>
+            <button data-bs-toggle="offcanvas" data-bs-target="#burger-menu-sidebar" class="navbar-toggler"
+                type="button" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav collapse-navbar-main ">
+                    <li class="nav-item active nav-item-custom-cls">
+                        <a href="#" class="nav-link nav-link-top-text">New Cars <span
+                                class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item nav-item-custom-cls ">
+                        <a href="#" class="nav-link nav-link-top-text">Used Cars</a>
+                    </li>
+                    <li class="nav-item nav-item-custom-cls">
+                        <a href="#" class="nav-link nav-link-top-text">Auto Parts</a>
+                    </li>
+                    <li class="nav-item nav-item-custom-cls">
+                        <a href="#" class="nav-link nav-link-top-text">Company Profile</a>
+                    </li>
+                    <li class="nav-item nav-item-custom-cls">
+                        <a href="#" class="nav-link nav-link-top-text">About Us</a>
+                    </li>
+                    <li class="nav-item nav-item-custom-cls">
+                        <a href="#" class="nav-link nav-link-top-text">inquiry Form</a>
+                    </li>
+                    <li class="nav-item nav-item-custom-cls">
+                        <a href="#" class="nav-link nav-link-top-text">Careers</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</section>
+
     <section class="container-fluid" id="dashboard_selection">
         <div class="grid-danshboard">
             <div class="dash-item-1">
@@ -26,7 +72,7 @@
                                     <use href="#business-information-icon"></use>
                                 </svg> Business Information</a>
                         </li>
-                        <li >
+                        <li>
                             <a href="company-profile.html"><svg class="dash-icon">
                                     <use href="#company-profile-icon"></use>
                                 </svg>Company Profile</a>
@@ -63,11 +109,15 @@
                     <div class="row d-md-none">
                         <div class="row d-md-none">
                             <div class="tabs-container-inq py-3">
-                                <a class="tab " href="business-information.html" data-tab="how-to-pay">Business Information</a>
-                                <a class="tab " href="company-profile.html" data-tab="vehicle-information">Company Profile</a>
-                                <a class="tab active" href="transaction-flow.html" data-tab="inquiry-form">Transaction flow</a>
+                                <a class="tab " href="business-information.html" data-tab="how-to-pay">Business
+                                    Information</a>
+                                <a class="tab " href="company-profile.html" data-tab="vehicle-information">Company
+                                    Profile</a>
+                                <a class="tab active" href="transaction-flow.html" data-tab="inquiry-form">Transaction
+                                    flow</a>
                                 <a class="tab" href="inquiry-form.html" data-tab="vehicle-condition">Inquiry Form</a>
-                                <a class="tab" href="recruitment-information.html" data-tab="vehicle-condition">Recruitment Information</a>
+                                <a class="tab" href="recruitment-information.html"
+                                    data-tab="vehicle-condition">Recruitment Information</a>
                                 <a class="tab" href="related-links.html" data-tab="vehicle-condition">Related Links</a>
                             </div>
                         </div>
@@ -79,10 +129,146 @@
                         </section>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </section>
+    <!-- footer  -->
+    <footer class="company-profile-footer ">
+        <!-- <div class="container-fluid d-lg-block d-md-block d-none d-sm-none justify-content-center px-3 px-lg-5"> -->
+        <div class="container-fluid footer-inner-section px-5">
+            <div class="row">
+                <div class="col d-flex justify-content-between">
+                    <div class="address-setion">
+                        <a href="#" class="d-flex align-items-center mb-3">
+                            <img src="assets/images/logo/logo-footer.png" class="fotr-logo" alt="">
+                        </a>
+                        <ul class="social-address">
+                            <li class="d-flex justify-content-start pt-0"><img
+                                    src="assets/images/common/icons/phone-icon.png" class="address-con" alt=""><span
+                                    class="comn-fotr-head-sub">0120-50-8460</span></li>
+                            <li class="d-flex justify-content-start"><img src="assets/images/common/icons/mail-icon.png"
+                                    class="address-con" alt=""><span class="comn-fotr-head-sub">info@satjapan.com</span>
+                            </li>
+                            <li class="d-flex justify-content-start pb-0"><img
+                                    src="assets/images/common/icons/location-icon.png" class="address-con" alt="">
+                                <span class="comn-fotr-head-sub">156-1 Hatanaka, Shimokawa, Izumicho,
+                                    Iwaki City, Fukushima Prefecture, 971-8183</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="company-pages-setion">
+                        <h2 class="overview-head-ftr mb-24 mb-10">
+                            Company Overview
+                        </h2>
+                        <ul>
+                            <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i> About SAT</li>
+                            <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i>Why Choose SAT</li>
+                            <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i>Company Profile</li>
+                            <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i>Terms & Conditions</li>
+                            <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i>Cookie Policy</li>
+                        </ul>
+                    </div>
+                    <div class="company-pages-setion">
+                        <h2 class="overview-head-ftr mb-24 mb-10">
+                            Company Overview
+                        </h2>
+                        <ul>
+                            <li class="make-by-li mb-6"><i class="fas fa-chevron-right"></i> About SAT</li>
+                            <li class="make-by-li mb-6"><i class="fas fa-chevron-right"></i>Why Choose SAT</li>
+                            <li class="make-by-li mb-6"><i class="fas fa-chevron-right"></i>Company Profile</li>
+                            <li class="make-by-li mb-6"><i class="fas fa-chevron-right"></i>Terms & Conditions</li>
+                            <li class="make-by-li mb-6"><i class="fas fa-chevron-right"></i>Cookie Policy</li>
+                        </ul>
+                    </div>
+                    <div class="social-link-setion">
+                        <div>
+                            <h2 class="overview-head-ftr mb-24 mb-10">
+                                Company Overview
+                            </h2>
+                            <span class="d-flex social-icons">
+                                <a href="javascript:;" class="text-decoration-none">
+
+                                    <img src="assets/images/common/icons/facebook-icon.png" alt=""
+                                        class="social-icons-inner">
+                                </a>
+                                <a href="javascript:;" class="text-decoration-none">
+
+                                    <img src="assets/images/common/icons/instagram-icon.png" alt=""
+                                        class="social-icons-inner">
+                                </a>
+                                <a href="javascript:;" class="text-decoration-none">
+
+                                    <img src="assets/images/common/icons/x-icon.png" alt="" class="social-icons-inner">
+                                </a>
+                                <a href="javascript:;" class="text-decoration-none">
+
+                                    <img src="assets/images/common/icons/youtube-icon.png" alt=""
+                                        class="social-icons-inner">
+                                </a>
+                            </span>
+                        </div>
+                        <div class="mailing-section">
+                            <h2 class="overview-head-ftr">
+                                Join Our Mailing List
+                            </h2>
+                            <form action="">
+                                <div class="input-group" id="mail_to_fotr">
+                                    <input type="text" class="form-control mailin-form-input"
+                                        placeholder="Enter your email" aria-label="Enter your email"
+                                        aria-describedby="button-em">
+                                    <button class="btn" type="submit" id="button-em">Subscribe</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-section">
+                <p class="copyright-para"> <span class="copyright-para pe-1">&copy</span> Copyrights, Shine Auto Trading
+                    . All Rights Reserved.</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- modals start- modals right side-->
+    <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="burger-menu-sidebar"
+        aria-labelledby="dashboardLabel" aria-modal="true" role="dialog">
+        <div class="offcanvas-header justify-content-start">
+            <h5 class="offcanvas-title fs-12 fw-600 clr-black-pure d-flex justify-content-start gap-2 align-items-center cursor-pointer"
+                data-bs-dismiss="offcanvas" aria-label="Close" id="dashboardLabel">
+                <i class="fas fa-chevron-left"></i>
+            </h5>
+        </div>
+        <div class="offcanvas-body pt-3 px-0">
+            <ul class="navbar-nav ">
+                <li class="nav-item active nav-item-custom-cls-mob">
+                    <a href="#" class="nav-link nav-link-top-text">New Cars <span
+                            class="visually-hidden">(current)</span></a>
+                </li>
+                <li class="nav-item nav-item-custom-cls-mob ">
+                    <a href="#" class="nav-link nav-link-top-text">Used Cars</a>
+                </li>
+                <li class="nav-item nav-item-custom-cls-mob">
+                    <a href="#" class="nav-link nav-link-top-text">Auto Parts</a>
+                </li>
+                <li class="nav-item nav-item-custom-cls-mob">
+                    <a href="#" class="nav-link nav-link-top-text">Company Profile</a>
+                </li>
+                <li class="nav-item nav-item-custom-cls-mob">
+                    <a href="#" class="nav-link nav-link-top-text">About Us</a>
+                </li>
+                <li class="nav-item nav-item-custom-cls-mob">
+                    <a href="#" class="nav-link nav-link-top-text">inquiry Form</a>
+                </li>
+                <li class="nav-item nav-item-custom-cls-mob">
+                    <a href="#" class="nav-link nav-link-top-text">Careers</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- modals end-->
     <!-- svgs for navbar-->
     <section class="d-none">
         <!-- inquiry-tab-svg-->
