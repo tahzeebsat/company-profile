@@ -8,11 +8,15 @@
     <link rel="stylesheet" href="assets/styles/bootstrap5vs/css/bootstrap.min.css" />
     <!-- fontawesome 5 -->
     <link rel="stylesheet" href="assets/styles/fonts/fontawesome5v/css/all.min.css" />
-    <link rel="stylesheet" href="assets/styles/root.css">
-    <link rel="stylesheet" href="assets/styles/newDashborad.css">
+    <link rel="stylesheet" href="/assets/styles/root.css">
     <link rel="stylesheet" href="assets/styles/compnay-profile.css">
     <link rel="stylesheet" href="assets/styles/sat-faqs-new.css">
     <link rel="stylesheet" href="assets/styles/header-footer.css">
+
+    <!-- slick-slider -->
+    <link rel="stylesheet" type="text/css" href="assets/styles/plugins/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="assets/styles/plugins/slick/slick-theme.css" />
+    <link rel="stylesheet" href="assets/styles/slick-slider.css" />
     <title>Company Profile</title>
 
 </head>
@@ -61,6 +65,57 @@
             </div>
         </nav>
     </section>
+    <!-- top slider -->
+    <!-- <section class="container top-slider-section">
+        <div class="row">
+            <div class="slider_form slider_form1024 ShowHtmlLoaded">
+                <div class="demo slide_margin">
+                    <img src="assets/images/banners/banner-slider-driving-img.png" height="432" width="1296"
+                        class="main-slider-img" alt="joinus" />
+                </div>
+                <div class="demo slide_margin">
+                    <img src="assets/images/banners/banner-slider-latest-modal-img.png" height="432" width="1296"
+                        class="main-slider-img" alt="joinus" />
+                </div>
+                <div class="demo slide_margin">
+                    <img src="assets/images/banners/banner-slider- used-car-img.png" height="432" width="1296"
+                        class="main-slider-img" alt="joinus" />
+                </div>
+                <div class="demo slide_margin">
+                    <img src="assets/images/banners/banner-slider-parts-img.png" height="432" width="1296"
+                        class="main-slider-img" alt="joinus" />
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <section class="container-fluid">
+        <div class="row">
+            <div class="slick-rev-card-review">
+                <div class="demo slide_margin">
+                    <img src="assets/images/banners/banner-slider-driving-img.png"
+                        class="main-slider-img" alt="joinus" />
+                </div>
+                <div class="demo slide_margin">
+                    <img src="assets/images/banners/banner-slider-latest-modal-img.png"
+                        class="main-slider-img" alt="joinus" />
+                </div>
+                <div class="demo slide_margin">
+                    <img src="assets/images/banners/banner-slider- used-car-img.png"
+                        class="main-slider-img" alt="joinus" />
+                </div>
+                <div class="demo slide_margin">
+                    <img src="assets/images/banners/banner-slider-parts-img.png"
+                        class="main-slider-img" alt="joinus" />
+                </div>
+                <div class="demo slide_margin">
+                    <img src="assets/images/banners/banner-slider-parts-img.png"
+                        class="main-slider-img" alt="joinus" />
+                </div>
+                <!-- Repeat the .demo div for other cards -->
+            </div>
+        </div>
+    </section>
+
 
     <!-- footer  -->
     <footer class="company-profile-footer ">
@@ -203,7 +258,7 @@
     </section>
     <!-- modals start-->
     <!-- modals right side -->
-    <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="burger-menu-sidebar"
+    <div class="offcanvas offcanvas-end" data-bs-scroll="false" tabindex="-1" id="burger-menu-sidebar"
         aria-labelledby="dashboardLabel" aria-modal="true" role="dialog">
         <div class="offcanvas-header justify-content-start">
             <h5 class="offcanvas-title fs-12 fw-600 clr-black-pure d-flex justify-content-start gap-2 align-items-center cursor-pointer"
@@ -243,8 +298,34 @@
     <script src="assets/js/bootstrap5vs/js/bootstrap.bundle.min.js"></script>
     <!-- Jquery -->
     <script src="assets/js/jquery.js"></script>
-    <!-- custom script js files -->
-    <script src="assets/js/script_h.js"></script>
+    <!-- slider-js-->
+    <script src="assets/js/plugins/slick/slider-query.min.js"></script>
+    <script src="assets/js/plugins/slick/slick.min.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Include Slick JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- Include your custom script -->
+    <script src="path/to/your/script.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            $(".slick-rev-card-review").slick({
+                dots: true,
+                infinite: false,
+                speed: 300,
+                arrows: false,
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                variableWidth: true,
+                customPaging: function (slider, i) {
+                    return i < 3 ? '<button class="dot">' + (i + 1) + '</button>' : null;
+                }
+            });
+        });
+
+    </script>
 
 </body>
 
