@@ -4,6 +4,10 @@
     height: 400px;
 }
 
+.top-nav-bar-header {
+    border-bottom: 1px solid #DCDAE2
+}
+
 .footer-inner-section {
     padding-top: 32px;
 }
@@ -148,6 +152,11 @@
     box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
 }
 
+.top-hdr-log-img {
+    width: 140px;
+    height: auto;
+}
+
 @media screen and (min-width: 1024px) and (max-width: 1300px) {
     .make-by-li {
         font-size: 16px;
@@ -205,6 +214,10 @@
 
     .collapse-navbar-main {
         gap: 12px;
+    }
+
+    .top-hdr-log-img {
+        width: 130px;
     }
 }
 
@@ -302,5 +315,16 @@
     .navbar-toggler {
         padding: 4px 6px 4px 6px;
         font-size: 12px !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .nav-bar-main {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .top-hdr-log-img {
+        width: 100px;
     }
 }
