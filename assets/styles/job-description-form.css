@@ -1,0 +1,106 @@
+.top-hdr {
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #0C1529;
+}
+
+.job-form-description {
+    font-family: Lato;
+    font-size: clamp(14px, 4vw, 20px);
+    font-weight: 400;
+    line-height: 28px;
+    color: #5D6370;
+}
+
+.comman-sub-heading {
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #0C1529;
+}
+
+.upload-link {
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #2384C1;
+    cursor: pointer;
+}
+
+.upload-link-or {
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #0C1529;
+}
+
+.form-label-inquirys {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #344054;
+}
+
+.comman-input-field-inq {
+    height: 40px;
+    border: 1px solid #d0d5dd;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #667085;
+    border-radius: 4px !important;
+    background-size: 16px 9px;
+}
+
+.inquiru-button {
+    border: 1px solid #2384C1;
+    background-color: #2384C1;
+    color: white;
+    height: 46px;
+    font-size: 18px;
+    font-family: Lato;
+    font-weight: 500;
+    line-height: 26px;
+    margin-top: 32px;
+}
+
+@media screen and (max-width: 992px) {
+    .bread-crum-main {
+        margin-top: 24px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .top-hdr {
+        font-size: 20px;
+    }
+
+    .bread-crum-main {
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .job-form-description {
+        margin-bottom: 16px;
+    }
+
+    .top-hdr {
+        margin-bottom: 16px;
+    }
+
+    .comman-sub-heading {
+        margin-bottom: 16px;
+    }
+}

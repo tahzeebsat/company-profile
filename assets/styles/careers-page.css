@@ -1,0 +1,344 @@
+.mb-12 {
+    margin-bottom: 12px;
+}
+
+.mb-32 {
+    margin-bottom: 32px;
+}
+
+.career-icons {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.career-banner {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-btn-accordion {
+    font-family: Lato;
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 600;
+    line-height: 28px;
+    height: 52px;
+    border: 1px solid #ECECEC;
+    /* border-radius: 6px !important; */
+    color: #0C1529;
+    border-top-left-radius: 6px !important;
+    ;
+    border-top-right-radius: 6px !important;
+}
+
+.benefits-card-para {
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #000929;
+    text-align: center;
+}
+
+.offer-para {
+    font-family: Lato;
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 400;
+    line-height: 28px;
+    color: #353C4D;
+    margin-bottom: 20px;
+}
+
+.offer-para::marker {
+    color: #2384C1;
+}
+
+.header-btn-accordion::after {
+    background-size: 18px;
+    width: 17px;
+}
+
+.header-btn-accordion:focus {
+    box-shadow: none !important;
+}
+
+.header-btn-accordion:not(.collapsed) {
+    color: #0C1529;
+    background-color: #ECECEC;
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+    font-family: Lato;
+    font-size: clamp(14px, 3vw, 20px);
+    font-weight: 600;
+    line-height: 28px;
+    height: 52px;
+    border: 1px solid #ECECEC;
+    border-top-left-radius: 6px !important;
+    ;
+    border-top-right-radius: 6px !important;
+}
+
+.accordion-item-career {
+    border: 1px solid #ECECEC;
+    border-radius: 6px !important;
+}
+
+.header-btn-accordion:not(:disabled) {
+    cursor: pointer;
+    border: 1px solid #EDEDED
+}
+
+.header-btn-accordion:hover {
+    background: #ECECEC;
+}
+
+.body-hdr-career {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #0C1529;
+    margin-bottom: 0;
+}
+
+.body-para-career {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #858A94;
+    margin-bottom: 0;
+}
+
+.offer-benefit-card {
+    gap: 36px;
+}
+
+.positon-accord-body {
+    border-left: 1px solid #ECECEC;
+    border-right: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
+}
+
+.benefits-card {
+    background-color: #FFF6EB99;
+    box-shadow: 0px 0px 4px 0px #2384C14D;
+    border: unset;
+    border-radius: 8px;
+    padding: 34px 34px 20px 20px;
+    height: 100%;
+    min-width: 250px;
+
+}
+
+.Financial-card {
+    background-color: #ECFAFD99;
+    box-shadow: 0px 0px 4px 0px #2384C14D;
+    border: unset;
+    border-radius: 8px;
+    padding: 34px 34px 20px 20px;
+    height: 100%;
+    min-width: 250px;
+
+}
+
+.Wellness-card {
+    background-color: #FFFDF6;
+    box-shadow: 0px 0px 4px 0px #2384C14D;
+    border: unset;
+    border-radius: 8px;
+    padding: 34px 34px 20px 20px;
+    height: 100%;
+    min-width: 250px;
+
+}
+
+.rating-icon {
+    max-width: 50px;
+    max-height: 50px;
+    margin-bottom: 20px;
+}
+
+.offer-hdr {
+    font-family: Sofia Pro;
+    font-size: clamp(18px, 4vw, 24px);
+    font-weight: 700;
+    line-height: 36px;
+    color: #0C1529;
+    margin-bottom: 24px;
+}
+
+.rating-sction {
+    background-color: #EFF4FF;
+    height: auto;
+    padding-block: 24px;
+}
+
+.label-rating {
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #000000;
+}
+
+.br-inline {
+    border-inline: 1px solid #CED0D4;
+}
+
+.mb-26 {
+    margin-bottom: 26px;
+}
+
+.rating-card-height {
+    height: 210px;
+    align-content: center
+}
+
+.rating-hdr {
+    font-family: Lato;
+    font-size: clamp(26px, 4vw, 48px);
+    font-weight: 900;
+    line-height: 54px;
+    color: #0C1529;
+}
+
+.rating-para {
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #000000;
+}
+
+@media screen and (max-width: 1199px) {
+    .offer-benefit-card {
+        gap: inherit;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .header-btn-accordion::after {
+        background-size: 16px;
+    }
+
+    .header-btn-accordion {
+        height: 45px;
+    }
+
+    .header-btn-accordion:not(.collapsed) {
+        height: 45px;
+    }
+
+    .benefits-card {
+        padding: 24px 16px 24px 16px;
+    }
+
+    .Financial-card {
+        padding: 24px 16px 24px 16px;
+    }
+
+    .Wellness-card {
+        padding: 24px 16px 24px 16px;
+    }
+}
+
+@media screen and (max-width: 894px) {
+    .mb-24 {
+        margin-bottom: 24px;
+    }
+
+    .col-50 {
+        flex: auto 0;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .br-inline {
+        border: unset;
+    }
+
+    .br-inline {
+        border-inline: unset;
+    }
+
+    .label-rating {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .col-50 {
+        flex: auto 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .open-positions {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .header-btn-accordion {
+        height: 40px;
+    }
+
+    .header-btn-accordion:not(.collapsed) {
+        height: 40px;
+    }
+
+    .body-hdr-career {
+        font-size: 14px;
+    }
+
+    .header-btn-accordion::after {
+        width: 14px;
+        background-size: 14px;
+    }
+
+    .benefits-card {
+        padding: 24px 10px 24px 10px;
+    }
+
+    .Financial-card {
+        padding: 24px 10px 24px 10px;
+    }
+
+    .Wellness-card {
+        padding: 24px 10px 24px 10px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .what-we-offer {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .mobile-addres-setion-main {
+        display: grid !important;
+    }
+
+    .footer-inner-section {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+}
+
+/* @media screen and (max-width: 400px) {
+    .mobile-addres-setion-main {
+        display: grid !important;
+    }
+
+    .footer-inner-section {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+} */

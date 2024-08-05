@@ -48,7 +48,7 @@
 /* ------table-container------- */
 .table-container {
     overflow-x: auto !important;
-    max-width: 73vw;
+    /* max-width: 73vw; */
 }
 
 .tble-hdr {
@@ -140,8 +140,83 @@
     border-color: #2384C1;
 }
 
+.company-key-services-crd {
+    border: 1px solid #dcdae2;
+    border-radius: 10px;
+    padding: 32px 0 32px 0;
+}
 
+.company-key-services-crd {
+    border: 1px solid #dcdae2;
+    border-radius: 10px;
+    padding: 32px 0 32px 0;
+}
 
+.used-card-hdr-comp {
+    font-family: Lato;
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+    color: #353c4d;
+}
+
+.core-value-hdr {
+    font-family: var(--font-family-Lato);
+    font-size: clamp(16px, 4vw, 20px);
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: #252525;
+}
+
+.core-value-para {
+    font-family: var(--font-family-Lato);
+    font-size: clamp(16px, 4vw, 20px);
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #5d6370;
+    margin-bottom: 0;
+}
+
+.core-value-card {
+    border: 1px solid var(--Stroke-Light-Base, #eaebf0);
+    background: #fffdf6;
+    padding: 24px;
+    height: 100%;
+    border-radius: 6px;
+    gap: 20px;
+}
+
+.compmany-hdr {
+    font-family: Sofia Pro;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #0C1529;
+}
+
+.core-value-img {
+    width: 50px;
+    height: 50px;
+}
+
+.bread-link-home {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #0C1529;
+}
+
+.bread-link-next {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #2384C1;
+}
 
 @media screen and (max-width: 1130px) {
     .tble-hdr {
@@ -167,6 +242,12 @@
     }
 }
 
+@media screen and (max-width: 992px) {
+    .breadcrumb {
+        margin-top: 20px;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .profile-bdy-banner-img {
         margin: 12px 0 12px 0;
@@ -184,9 +265,9 @@
         font-size: 16px;
     }
 
-    .table-container {
+    /* .table-container {
         width: 95vw;
-    }
+    } */
 
     .tble-td-compny-name {
         font-size: 16px;
@@ -202,7 +283,22 @@
 
     .table-container {
         overflow-x: auto !important;
-        max-width: 95vw;
+        /* max-width: 95vw; */
+    }
+
+    .key-services-offered {
+        margin-bottom: 10px;
+    }
+
+    .greating-section {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .core-value-card {
+        padding: 20px 10px 20px 10px;
+        gap: 10px;
     }
 }
 
@@ -225,5 +321,10 @@
 
     .tble-td {
         padding: 10px 10px 10px 10px !important;
+    }
+
+    .padding-lft-right {
+        padding-right: 20px !important;
+        padding-left: 20px !important;
     }
 }
