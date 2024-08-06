@@ -1,9 +1,6 @@
 .main-slider-img {
     width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: cover;
+    height: auto;
 }
 
 .driving-common-hdr {
@@ -170,6 +167,16 @@
     border-radius: 8px;
 }
 
+.slider_form .slick-slide {
+    margin-right: 0 !important;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+    .slider_form1024 .slick-prev {
+        left: 41% !important;
+    }
+}
+
 /* -------accordions------- */
 #faqs_accord_sat .accordion-button:focus {
     border-color: unset;
@@ -275,6 +282,7 @@
         font-size: 18px;
         line-height: 20px;
     }
+
     .driving-common-hdr {
         font-size: 22px;
     }
@@ -299,6 +307,7 @@
     .sale-crd-para {
         font-size: 16px;
     }
+
     .driving-common-hdr {
         font-size: 20px;
     }
@@ -418,6 +427,7 @@
     .sale-card-hdr {
         font-size: 18px;
     }
+
     .driving-common-hdr {
         font-size: 20px;
     }
@@ -442,13 +452,16 @@
     .img-section {
         margin-bottom: 0;
     }
+
     .margin-btm-unset {
         margin-bottom: unset;
     }
+
     .mb-12 {
         margin-bottom: 12px;
     }
-    .driving-common-hdr{
+
+    .driving-common-hdr {
         font-size: 18px;
     }
 }

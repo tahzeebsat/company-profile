@@ -23,15 +23,13 @@
 
 .header-btn-accordion {
     font-family: Lato;
-    font-size: clamp(14px, 2vw, 20px);
+    font-size: clamp(14px, 3vw, 20px);
     font-weight: 600;
     line-height: 28px;
     height: 52px;
     border: 1px solid #ECECEC;
-    /* border-radius: 6px !important; */
     color: #0C1529;
     border-top-left-radius: 6px !important;
-    ;
     border-top-right-radius: 6px !important;
 }
 
@@ -69,7 +67,7 @@
 .header-btn-accordion:not(.collapsed) {
     color: #0C1529;
     background-color: #ECECEC;
-    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+    /* box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color); */
     font-family: Lato;
     font-size: clamp(14px, 3vw, 20px);
     font-weight: 600;

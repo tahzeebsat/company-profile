@@ -61,7 +61,7 @@
     border-radius: 4px !important;
     background-size: 16px 9px;
 }
-
+/* 
 .inquiru-button {
     border: 1px solid #2384C1;
     background-color: #2384C1;
@@ -72,6 +72,22 @@
     font-weight: 500;
     line-height: 26px;
     margin-top: 32px;
+} */
+
+.inquiru-button {
+    border: 1px solid #2384C1;
+    background-color: #2384C1;
+    color: white;
+    height: 46px;
+    font-size: 18px;
+    /* font-family: Lato; */
+    /* font-weight: 500; */
+    line-height: 26px;
+    margin-top: 32px;
+    border-radius: 6px;
+    padding: 16px 16px 16px 17px;
+    display: flex;
+    align-items: center;
 }
 
 @media screen and (max-width: 992px) {

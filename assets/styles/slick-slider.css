@@ -1,0 +1,114 @@
+/* slider-silick */
+/* carosuel slider END*/
+.slick-arrow {
+  height: 45px !important;
+  width: 45px !important;
+  border-radius: 50% !important;
+  background-color:transparent;
+}
+/* .slick-arrow:hover{
+  background-color: white;
+} */
+.slick:hover .slick-arrow {
+  background-color: white;
+}
+.slick-recent-cars:hover .slick-arrow {
+  background-color: white;
+}
+.make_section:hover .slick-arrow {
+  background-color: white;
+}
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before {
+  color: #000000b2 !important;
+  /* color: #fff !important; */
+}
+.slick-prev:before,
+.slick-next:before {
+  font-size: 20px !important;
+}
+.slick-prev:before,
+.slick-next:before:hover {
+  font-size: 20px !important;
+  color: yellow;
+}
+
+
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before {
+  opacity: 1 !important;
+}
+
+
+
+
+.slick-dots li button:before {
+  color: transparent !important;
+  border-radius: 50%;
+  opacity: 1 !important;
+  width: 6px;
+  height: 6px;
+  border-radius: 29.47px;
+  border: 0.5px;
+  border: 0.5px solid #aeb1b8;
+}
+.slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  /* color: #1f62ae !important; */
+  /* border: 1px solid #1f62ae !important; */
+  border: none !important;
+}
+.slick-dots {
+  bottom: -32px !important;
+}
+/* Customize Slick slider dots */
+.slick-dots {
+  width: 100%;
+  text-align: center;
+}
+/* Style individual dots */
+.slick-dots li {
+  width: 6px;
+  height: 6px;
+  border-radius: 10%;
+  padding: 4px;
+}
+/* Style active dot */
+.slick-dots li.slick-active {
+  background: #2a9fe8;
+  width: 15px;
+  height: 6px;
+  border-radius: 29px;
+}
+/* Hide default Slick slider arrow buttons */
+.slick-prev,
+.slick-next {
+  display: none;
+}
+/* Customize icon styles */
+.slick-prev::before,
+.slick-next::before {
+  font-size: 24px; /* Font size */
+  color: #333; /* Icon color */
+}
+.slick-slide {
+  margin-right: 20px;
+}
+.slick-prev {
+  left: 0px;
+  z-index: 1;
+}
+/* Style the arrow icons */
+.slick-prev::before,
+.slick-next::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1;
+}
+.slick-prev::before {
+  content: "\f053"; /* FontAwesome icon for "angle-left" */
+}
+.slick-next::before {
+  content: "\f054"; /* FontAwesome icon for "angle-right" */
+}
