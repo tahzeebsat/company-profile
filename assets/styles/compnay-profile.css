@@ -248,11 +248,14 @@
     }
 }
 
+
 @media screen and (max-width: 767px) {
     .profile-bdy-banner-img {
         margin: 12px 0 12px 0;
     }
-
+    .inquiru-button {
+        font-size: 16px;
+    }
     .tabs-body-part {
         padding: 10px 0px 0px 0px;
     }
@@ -292,6 +295,13 @@
 
     .greating-section {
         margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .inquiru-button {
+        height: 40px;
+        font-size: 14px;
     }
 }
 

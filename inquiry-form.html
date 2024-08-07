@@ -49,7 +49,7 @@
                             <a href="company-profile.html" class="nav-link nav-link-top-text">Company Profile</a>
                         </li>
                         <li class="nav-item nav-item-custom-cls">
-                            <a href="driving-excellence.html" class="nav-link nav-link-top-text">About Us</a>
+                            <a href="home-page.html" class="nav-link nav-link-top-text">About Us</a>
                         </li>
                         <li class="nav-item nav-item-custom-cls">
                             <a href="inquiry-form.html" class="nav-link nav-link-top-text">inquiry Form</a>
@@ -67,10 +67,10 @@
         <nav style="--bs-breadcrumb-divider: '/'" aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item">
-                    <a href="/" class="bread-link-home">Home</a>
+                    <a href="home-page.html" class="bread-link-home">Home</a>
                 </li>
                 <li class="breadcrumb-item clr-black-80" aria-current="page">
-                    <a href="/" class="bread-link-next">
+                    <a href="/inquiry-form.html" class="bread-link-next">
                         Inquiry Page</a>
                 </li>
             </ol>
@@ -83,7 +83,8 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="mb-24">
                         <label for="NameFormControlInput" class="form-label form-label-inquirys">
-                            Name</label>
+                            Name <span
+                            class="text-danger">*</span></label>
                         <input type="text" class="form-control comman-input-field-inq rounded-0"
                             id="NameFormControlInput" placeholder="Name" />
                     </div>
@@ -91,26 +92,15 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="mb-24">
                         <label for="EmaiFormControlInput" class="form-label form-label-inquirys">
-                            Email</label>
+                            Email <span
+                            class="text-danger">*</span></label>
                         <input type="email" class="form-control comman-input-field-inq rounded-0"
                             id="EmaiFormControlInput" placeholder="Email" />
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="mb-24">
-                        <label for="CodeFormControlInput" class="form-label form-label-inquirys">
-                            Post Code</label>
-                        <select class="form-select comman-input-field-inq" aria-label="Default select example">
-                            <option selected class="slect-texture-slect">1234565</option>
-                            <option value="1" class="form-sect-inq-open">Select</option>
-                            <option value="2" class="form-sect-inq-open">Select</option>
-                            <option value="3" class="form-sect-inq-open">Select</option>
-                        </select>
-                    </div>
-                </div>
                 <div class="col-md-4 col-sm-6 mb-24 d-grid">
-                    <label for="Phone" class="form-label form-label-inquirys">Telephone
-                        number</label>
+                    <label for="Phone" class="form-label form-label-inquirys">Phone <span
+                        class="text-danger">*</span></label>
                     <input type="number" placeholder="Phone" class="phone-car-detail form-control  w-100"
                         id="phone-inq-profile" />
                     <div class="form-error d-none">We'll never share your email with anyone
@@ -118,19 +108,22 @@
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="mb-24">
-                        <label for="faxFormControlInput" class="form-label form-label-inquirys">
-                            Fax number</label>
-                        <input type="text" class="form-control comman-input-field-inq rounded-0"
-                            id="faxFormControlInput" placeholder="1234567" />
+                        <label for="minicipleFormControlInput" class="form-label form-label-inquirys">
+                            Destination Country</label>
+                        <select class="form-select comman-input-field-inq" aria-label="Default select example">
+                            <option selected class="slect-texture-slect">Pakistan</option>
+                            <option value="1" class="form-sect-inq-open">Select</option>
+                            <option value="2" class="form-sect-inq-open">Select</option>
+                            <option value="3" class="form-sect-inq-open">Select</option>
+                        </select>
                     </div>
                 </div>
-              
                 <div class="col-md-4 col-sm-6">
                     <div class="mb-24">
                         <label for="minicipleFormControlInput" class="form-label form-label-inquirys">
-                            Municipalities</label>
+                            City</label>
                         <select class="form-select comman-input-field-inq" aria-label="Default select example">
-                            <option selected class="slect-texture-slect">12345678</option>
+                            <option selected class="slect-texture-slect">Karachi</option>
                             <option value="1" class="form-sect-inq-open">Select</option>
                             <option value="2" class="form-sect-inq-open">Select</option>
                             <option value="3" class="form-sect-inq-open">Select</option>
@@ -140,16 +133,15 @@
                 <div class="col-md-12">
                     <div class="">
                         <div class="d-flex justify-content-between align-items-md-center">
-                            <label for="textareaFormControlInput" class="form-label form-label-inquirys">Address, house
-                                number,
-                                etc.</label>
+                            <label for="textareaFormControlInput" class="form-label form-label-inquirys">Your Question <span
+                                class="text-danger">*</span></label>
                         </div>
                         <textarea class="form-control form-texarea-inq" id="CodeFormControlInput" rows="3"
-                            placeholder="Address"></textarea>
+                            placeholder="Type Your Question"></textarea>
                     </div>
                 </div>
                 <div class="d-flex justify-content-center">
-                    <button type="button" class="btn inquiru-button"> Update Inquiry</button>
+                    <button type="button" class="btn inquiru-button"> Send Inquiry</button>
 
                 </div>
             </div>
@@ -184,11 +176,10 @@
                             Company Overview
                         </h2>
                         <ul class="px-0">
-                            <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i> About SAT</li>
-                            <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i>Why Choose SAT</li>
-                            <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i>Company Profile</li>
-                            <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i>Terms & Conditions</li>
-                            <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i>Cookie Policy</li>
+                            <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i> Company Profile</li>
+                            <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i>About Us</li>
+                            <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i>Careers</li>
+                            <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i>Inquiry Form</li>
                         </ul>
                     </div>
                     <div class="company-pages-setion">
@@ -196,11 +187,11 @@
                             Company Overview
                         </h2>
                         <ul class="px-0">
-                            <li class="make-by-li mb-6"><i class="fas fa-chevron-right"></i> About SAT</li>
-                            <li class="make-by-li mb-6"><i class="fas fa-chevron-right"></i>Why Choose SAT</li>
-                            <li class="make-by-li mb-6"><i class="fas fa-chevron-right"></i>Company Profile</li>
-                            <li class="make-by-li mb-6"><i class="fas fa-chevron-right"></i>Terms & Conditions</li>
-                            <li class="make-by-li mb-6"><i class="fas fa-chevron-right"></i>Cookie Policy</li>
+                            <li class="make-by-li mb-6"><i class="fas fa-chevron-right"></i> Used Cars</li>
+                            <li class="make-by-li mb-6"><i class="fas fa-chevron-right"></i>New Cars</li>
+                            <li class="make-by-li mb-6"><i class="fas fa-chevron-right"></i>Auto Parts</li>
+                            <li class="make-by-li mb-6"><i class="fas fa-chevron-right"></i>Rentals</li>
+                      
                         </ul>
                     </div>
                     <div class="social-link-setion">
@@ -321,11 +312,10 @@
                         Company Overview
                     </h2>
                     <ul class="px-0">
-                        <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i>Company Profile</li>
-                        <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i>About Us</li>
-                        <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i>Careers</li>
-                        <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i>Inquiry Form</li>
-                        <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i>Cookie Policy</li>
+                        <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i> Company Profile</li>
+                            <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i>About Us</li>
+                            <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i>Careers</li>
+                            <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i>Inquiry Form</li>
                     </ul>
                 </div>
             </div>
@@ -335,10 +325,10 @@
                         Our Products
                     </h2>
                     <ul class="px-0">
-                        <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i>Used Cars</li>
-                        <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i>New Cars</li>
-                        <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i>Auto Parts</li>
-                        <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i>Car Rentals</li>
+                        <li class="make-by-li mb-6"><i class="fas fa-chevron-right"></i> Used Cars</li>
+                        <li class="make-by-li mb-6"><i class="fas fa-chevron-right"></i>New Cars</li>
+                        <li class="make-by-li mb-6"><i class="fas fa-chevron-right"></i>Auto Parts</li>
+                        <li class="make-by-li mb-6"><i class="fas fa-chevron-right"></i>Rentals</li>
                     </ul>
                 </div>
             </div>
@@ -389,8 +379,8 @@
                         <i class="fas fa-chevron-right fs-10 right-nav-icon"></i>
                     </span>
                 </li>
-                <li class="nav-item nav-item-custom-cls-mob" onclick="location.href='/driving-excellence.html';">
-                    <a href="driving-excellence.html" class="nav-link nav-link-top-text">About Us</a>
+                <li class="nav-item nav-item-custom-cls-mob" onclick="location.href='/home-page.html';">
+                    <a href="home-page.html" class="nav-link nav-link-top-text">About Us</a>
                     <span>
                         <i class="fas fa-chevron-right fs-10 right-nav-icon"></i>
                     </span>

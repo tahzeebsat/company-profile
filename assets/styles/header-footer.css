@@ -435,7 +435,7 @@
         color: #FFFFFF;
     }
 
-    .nav-item-custom-cls:hover {
+    .nav-item-custom-cls-mob:hover {
         background-color: #2384c1;
         cursor: pointer;
         color: #FFFFFF;
@@ -452,7 +452,6 @@
 }
 
 .nav-link-top-text:hover {
-    color: #FFFFFF !important;
     font-size: 14px;
     font-weight: 600;
     line-height: 12px;
