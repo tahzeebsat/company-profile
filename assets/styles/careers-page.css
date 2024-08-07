@@ -268,6 +268,9 @@
     .label-rating {
         font-size: 16px;
     }
+    .mt-12-bread-crum{
+        margin-top: 12px;
+    }
 }
 
 @media screen and (max-width: 620px) {

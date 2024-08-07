@@ -61,6 +61,7 @@
     border-radius: 4px !important;
     background-size: 16px 9px;
 }
+
 /* 
 .inquiru-button {
     border: 1px solid #2384C1;
@@ -105,6 +106,11 @@
         margin-top: 12px;
         margin-bottom: 12px;
     }
+
+    .inquiru-button {
+        height: 40px;
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -118,5 +124,10 @@
 
     .comman-sub-heading {
         margin-bottom: 16px;
+    }
+
+    .inquiru-button {
+        height: 40px;
+        font-size: 14px;
     }
 }

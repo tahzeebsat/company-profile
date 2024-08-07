@@ -123,8 +123,8 @@
 
 .sale-img {
     width: 100%;
-    max-width: 415px;
-    height: 180px;
+    max-width: 555;
+    height: auto;
     border-radius: 6px;
 }
 
@@ -170,12 +170,12 @@
 .slider_form .slick-slide {
     margin-right: 0 !important;
 }
-
+/* 
 @media screen and (min-width: 1024px) and (max-width: 1199px) {
     .slider_form1024 .slick-prev {
         left: 41% !important;
     }
-}
+} */
 
 /* -------accordions------- */
 #faqs_accord_sat .accordion-button:focus {

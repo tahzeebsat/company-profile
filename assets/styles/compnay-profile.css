@@ -106,7 +106,7 @@
     font-weight: 500;
     line-height: 20px;
     letter-spacing: -0.01em;
-    color: #667085;
+    color: #667085 !important;
     border-radius: 4px !important;
     background-size: 16px 9px;
 }
