@@ -254,7 +254,9 @@
         margin: 12px 0 12px 0;
     }
     .inquiru-button {
+        height: 36px;
         font-size: 16px;
+        line-height: 20px;
     }
     .tabs-body-part {
         padding: 10px 0px 0px 0px;
@@ -300,8 +302,9 @@
 
 @media screen and (max-width: 576px) {
     .inquiru-button {
-        height: 40px;
-        font-size: 14px;
+        height: 34px;
+        font-size: 12px;
+        line-height: 18px;
     }
 }
 

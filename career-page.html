@@ -14,13 +14,18 @@
     <link rel="stylesheet" href="assets/styles/header-footer.css">
     <link rel="stylesheet" href="assets/styles/careers-page.css">
     <title>Careers Page</title>
+    <style>
+        .container {
+            max-width: 1266px;
+        }
+    </style>
 </head>
 
 <body class="bg-white-900">
     <!-- Top-Header -->
     <section class="top-navbar-header">
         <nav class="navbar navbar-expand-lg py-3 top-nav-bar-header">
-            <div class="container-fluid px-5 nav-bar-main">
+            <div class="container nav-bar-main">
                 <a href="#" class="navbar-brand">
                     <!-- Logo Image -->
                     <img src="assets/images/logo/logo-satjapan.svg" alt=""
@@ -61,7 +66,7 @@
         </nav>
     </section>
     <!-- breadCrumb -->
-    <section class="container-fluid padding-lft-right px-5 mt-12-bread-crum">
+    <section class="container mt-12-bread-crum">
         <nav style="--bs-breadcrumb-divider: '/'" aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item">
@@ -79,7 +84,7 @@
         <img src="assets/images/banners/career-banner-desktop.png" class="career-banner" alt="">
     </section>
     <!-- top-banner -->
-    <section class="container-fluid px-5 what-we-offer mb-32 mb-24">
+    <section class="container what-we-offer mb-32 mb-24">
         <h4 class="offer-hdr">What We Offer </h4>
         <div class="row offer-benefit-card">
             <div class="col mb-24 col-50">
@@ -121,7 +126,7 @@
     </section>
 
     <!--careers -tabs-->
-    <section class="container-fluid px-5 open-positions mb-32">
+    <section class="container  open-positions mb-32">
         <div class="accordion accordion-flush" id="accordionPositions-opening">
             <div class="accordion-item accordion-item-career mb-12">
                 <h2 class="accordion-header" id="headingSeven">
@@ -301,7 +306,7 @@
         </div>
     </section>
     <!--careers -rating-->
-    <section class="container-fluid rating-sction">
+    <section class="container  rating-sction">
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-6 rating-card-height  text-center">
 
@@ -329,8 +334,7 @@
     </section>
     <!-- footer Desktop -->
     <footer class="company-profile-footer d-none d-md-block">
-        <!-- <div class="container-fluid d-lg-block d-md-block d-none d-sm-none justify-content-center px-3 px-lg-5"> -->
-        <div class="container-fluid footer-inner-section px-5">
+        <div class="container footer-inner-section">
             <div class="row">
                 <div class="col d-flex justify-content-between">
                     <div class="address-setion">
@@ -423,7 +427,6 @@
                     . All Rights Reserved.</p>
             </div>
         </div>
-
     </footer>
     <!-- footer Mobile screen -->
     <footer class="container-fluid p-4 d-md-none" id="footer_mobile">

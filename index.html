@@ -21,56 +21,62 @@
     <link rel="stylesheet" type="text/css" href="assets/styles/plugins/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="assets/styles/plugins/slick/slick-theme.css" />
     <link rel="stylesheet" href="assets/styles/slick-slider.css" />
-
+    <style>
+        .container {
+            max-width: 1266px;
+        }
+    </style>
     <title>Home Page</title>
 </head>
 
 <body class="bg-white-900">
     <!-- Top-Header -->
-    <section class="top-navbar-header">
-        <nav class="navbar navbar-expand-lg py-3 top-nav-bar-header">
-            <div class="container-fluid px-5 nav-bar-main">
-                <a href="#" class="navbar-brand">
-                    <!-- Logo Image -->
-                    <img src="assets/images/logo/logo-satjapan.svg" alt=""
-                        class="d-inline-block align-middle me-2 top-hdr-log-img">
-                </a>
-                <button data-bs-toggle="offcanvas" data-bs-target="#burger-menu-sidebar" class="navbar-toggler"
-                    type="button" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-                    <ul class="navbar-nav collapse-navbar-main ">
-                        <li class="nav-item active nav-item-custom-cls">
-                            <a href="#" class="nav-link nav-link-top-text">New Cars <span
-                                    class="visually-hidden">(current)</span></a>
-                        </li>
-                        <li class="nav-item nav-item-custom-cls ">
-                            <a href="#" class="nav-link nav-link-top-text">Used Cars</a>
-                        </li>
-                        <li class="nav-item nav-item-custom-cls">
-                            <a href="#" class="nav-link nav-link-top-text ">Auto Parts</a>
-                        </li>
-                        <li class="nav-item nav-item-custom-cls">
-                            <a href="company-profile.html" class="nav-link nav-link-top-text">Company Profile</a>
-                        </li>
-                        <li class="nav-item nav-item-custom-cls">
-                            <a href="/index.html" class="nav-link nav-link-top-text active">About Us</a>
-                        </li>
-                        <li class="nav-item nav-item-custom-cls">
-                            <a href="inquiry-form.html" class="nav-link nav-link-top-text">inquiry Form</a>
-                        </li>
-                        <li class="nav-item nav-item-custom-cls">
-                            <a href="career-page.html" class="nav-link nav-link-top-text">Careers</a>
-                        </li>
-                    </ul>
+    <section class="top-navbar-header top-nav-bar-header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg py-3 ">
+                <div class="container-fluid nav-bar-main">
+                    <a href="#" class="navbar-brand">
+                        <!-- Logo Image -->
+                        <img src="assets/images/logo/logo-satjapan.svg" alt=""
+                            class="d-inline-block align-middle me-2 top-hdr-log-img">
+                    </a>
+                    <button data-bs-toggle="offcanvas" data-bs-target="#burger-menu-sidebar" class="navbar-toggler"
+                        type="button" aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                        <ul class="navbar-nav collapse-navbar-main ">
+                            <li class="nav-item active nav-item-custom-cls">
+                                <a href="#" class="nav-link nav-link-top-text">New Cars <span
+                                        class="visually-hidden">(current)</span></a>
+                            </li>
+                            <li class="nav-item nav-item-custom-cls ">
+                                <a href="#" class="nav-link nav-link-top-text">Used Cars</a>
+                            </li>
+                            <li class="nav-item nav-item-custom-cls">
+                                <a href="#" class="nav-link nav-link-top-text ">Auto Parts</a>
+                            </li>
+                            <li class="nav-item nav-item-custom-cls">
+                                <a href="company-profile.html" class="nav-link nav-link-top-text">Company Profile</a>
+                            </li>
+                            <li class="nav-item nav-item-custom-cls">
+                                <a href="/index.html" class="nav-link nav-link-top-text active">About Us</a>
+                            </li>
+                            <li class="nav-item nav-item-custom-cls">
+                                <a href="inquiry-form.html" class="nav-link nav-link-top-text">inquiry Form</a>
+                            </li>
+                            <li class="nav-item nav-item-custom-cls">
+                                <a href="career-page.html" class="nav-link nav-link-top-text">Careers</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </section>
     <!-- breadCrumb -->
-    <section class="container-fluid padding-lft-right px-5">
+    <section class="container">
         <nav style="--bs-breadcrumb-divider: '/'" aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item">
@@ -110,7 +116,7 @@
         </div>
     </section>
     <!-- Our Products -->
-    <section class="container-fluid padding-lft-right px-5">
+    <section class="container">
         <h2 class="driving-common-hdr mb-24">Our Products </h2>
         <div class="row mb-24 d-flex">
             <div class="col-lg-3 col-md-6 col-sm-6 d-flex mb-24 justify-content-center report-issues-col">
@@ -193,7 +199,7 @@
         </div>
     </section>
     <!-- Vehicles info -->
-    <section class="container-fluid padding-lft-right px-5 img-section mb-32 mt-32">
+    <section class="container img-section mb-32 mt-32">
         <div class="row">
             <div class="col-lg-4 col-mg-6 col-sm-6 col-card-sales mb-24">
                 <div class="card sales-card-mian">
@@ -248,8 +254,8 @@
 
     <!--faqs-->
 
-    <section class="container-fluid padding-lft-right px-5 comman-accordion-parents d-none d-md-block mb-32">
-        <div >
+    <section class="container comman-accordion-parents d-none d-md-block mb-32">
+        <div>
             <h2 class="driving-common-hdr mb-24">Auction FAQs</h2>
             <div class="row">
                 <div class="col">
@@ -503,8 +509,7 @@
     </section>
     <!-- footer Desktop -->
     <footer class="company-profile-footer d-none d-md-block">
-        <!-- <div class="container-fluid d-lg-block d-md-block d-none d-sm-none justify-content-center px-3 px-lg-5"> -->
-        <div class="container-fluid footer-inner-section px-5">
+        <div class="container footer-inner-section">
             <div class="row">
                 <div class="col d-flex justify-content-between">
                     <div class="address-setion">
@@ -595,7 +600,6 @@
                     . All Rights Reserved.</p>
             </div>
         </div>
-
     </footer>
     <!-- footer Mobile screen -->
     <footer class="container-fluid p-4 d-md-none" id="footer_mobile">
