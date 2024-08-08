@@ -268,8 +268,13 @@
     .label-rating {
         font-size: 16px;
     }
-    .mt-12-bread-crum{
+
+    .mt-12-bread-crum {
         margin-top: 12px;
+    }
+
+    .offer-para {
+        margin-bottom: 10px;
     }
 }
 

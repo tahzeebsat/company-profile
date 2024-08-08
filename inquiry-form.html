@@ -14,8 +14,14 @@
     <link rel="stylesheet" href="assets/styles/inquiry-form.css">
     <link rel="stylesheet" href="assets/styles/plugins/intl-tel-input/intl.css" />
     <link rel="stylesheet" href="assets/styles/header-footer.css">
-
     <title>Inquiry Form</title>
+    <style>
+        @media screen and (min-width: 1300px) {
+            .container {
+                max-width: 1266px;
+            }
+        }
+    </style>
 </head>
 
 <body class="bg-white-900">
@@ -83,8 +89,7 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="mb-24">
                         <label for="NameFormControlInput" class="form-label form-label-inquirys">
-                            Name <span
-                            class="text-danger">*</span></label>
+                            Name <span class="text-danger">*</span></label>
                         <input type="text" class="form-control comman-input-field-inq rounded-0"
                             id="NameFormControlInput" placeholder="Name" />
                     </div>
@@ -92,15 +97,14 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="mb-24">
                         <label for="EmaiFormControlInput" class="form-label form-label-inquirys">
-                            Email <span
-                            class="text-danger">*</span></label>
+                            Email <span class="text-danger">*</span></label>
                         <input type="email" class="form-control comman-input-field-inq rounded-0"
                             id="EmaiFormControlInput" placeholder="Email" />
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 mb-24 d-grid">
                     <label for="Phone" class="form-label form-label-inquirys">Phone <span
-                        class="text-danger">*</span></label>
+                            class="text-danger">*</span></label>
                     <input type="number" placeholder="Phone" class="phone-car-detail form-control  w-100"
                         id="phone-inq-profile" />
                     <div class="form-error d-none">We'll never share your email with anyone
@@ -133,8 +137,8 @@
                 <div class="col-md-12">
                     <div class="">
                         <div class="d-flex justify-content-between align-items-md-center">
-                            <label for="textareaFormControlInput" class="form-label form-label-inquirys">Your Question <span
-                                class="text-danger">*</span></label>
+                            <label for="textareaFormControlInput" class="form-label form-label-inquirys">Your Question
+                                <span class="text-danger">*</span></label>
                         </div>
                         <textarea class="form-control form-texarea-inq" id="CodeFormControlInput" rows="3"
                             placeholder="Type Your Question"></textarea>
@@ -149,7 +153,7 @@
     </section>
     <!-- footer Desktop -->
     <footer class="company-profile-footer d-none d-md-block">
-        <div class="container-fluid footer-inner-section px-5">
+        <div class="container footer-inner-section">
             <div class="row">
                 <div class="col d-flex justify-content-between">
                     <div class="address-setion">
@@ -164,7 +168,8 @@
                                     class="address-con" alt=""><span class="comn-fotr-head-sub">info@satjapan.com</span>
                             </li>
                             <li class="d-flex justify-content-start pb-0"><img
-                                    src="assets/images/common/icons/location-icon.png" class="address-con d-flex align-self-baseline mt-1" alt="">
+                                    src="assets/images/common/icons/location-icon.png"
+                                    class="address-con d-flex align-self-baseline mt-1" alt="">
                                 <span class="comn-fotr-head-sub">156-1 Hatanaka, Shimokawa, Izumicho,
                                     Iwaki City, Fukushima Prefecture, 971-8183</span>
                             </li>
@@ -190,7 +195,7 @@
                             <li class="make-by-li mb-6"><i class="fas fa-chevron-right"></i>New Cars</li>
                             <li class="make-by-li mb-6"><i class="fas fa-chevron-right"></i>Auto Parts</li>
                             <li class="make-by-li mb-6"><i class="fas fa-chevron-right"></i>Rentals</li>
-                      
+
                         </ul>
                     </div>
                     <div class="social-link-setion">
@@ -311,9 +316,9 @@
                     </h2>
                     <ul class="px-0">
                         <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i> Company Profile</li>
-                            <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i>About Us</li>
-                            <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i>Careers</li>
-                            <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i>Inquiry Form</li>
+                        <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i>About Us</li>
+                        <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i>Careers</li>
+                        <li class="make-by-li  mb-6"><i class="fas fa-chevron-right"></i>Inquiry Form</li>
                     </ul>
                 </div>
             </div>

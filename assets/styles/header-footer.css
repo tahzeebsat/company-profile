@@ -53,7 +53,7 @@
 /* company-profile-footer for desktop css*/
 .company-profile-footer {
     background-color: #014E78;
-    height: 400px;
+    height: 370px;
 }
 
 .top-nav-bar-header {
@@ -338,10 +338,10 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .footer-inner-section {
+    /* .footer-inner-section {
         padding-left: 23px !important;
         padding-right: 23px !important;
-    }
+    } */
 
     .social-icons {
         display: flex;
@@ -611,12 +611,6 @@
 
 }
 
-
-/* company-profile-footer for mobile css*/
-.company-profile-footer {
-    background-color: #014E78;
-    height: 400px;
-}
 
 @media screen and (max-width: 425px) {
     .mobile-addres-setion-main {
