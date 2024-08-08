@@ -5,10 +5,20 @@
 
 .driving-common-hdr {
     font-family: Sofia Pro;
-    font-size: 24px;
+    font-size:clamp(16px, 4vw, 24px);
     font-weight: 700;
     line-height: 36px;
     color: #0C1529;
+}
+
+.driving-faq-hdr {
+    font-family: Lato;
+    font-size: clamp(16px, 4vw, 24px);
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    text-align: left;
+    color: #020408;
 }
 
 .sale-crd-hdr {
@@ -99,14 +109,14 @@
     font-size: clamp(16px, 2vw, 24px);
     font-weight: 700;
     line-height: 36px;
-    color: #0c1529;
+    color: #000000;
 }
 
 .car-insurance-para {
     font-size: clamp(12px, 2vw, 20px);
     color: #0C1529;
     font-family: Lato;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 28px;
     padding: 0 100px 0 100px;
     margin-bottom: 0;
@@ -170,6 +180,7 @@
 .slider_form .slick-slide {
     margin-right: 0 !important;
 }
+
 /* 
 @media screen and (min-width: 1024px) and (max-width: 1199px) {
     .slider_form1024 .slick-prev {
@@ -239,13 +250,13 @@
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1440px) {
-    .sale-crd-para {
+    /* .sale-crd-para {
         font-size: 16px;
-    }
+    } */
 
-    .sale-crd-hdr {
+    /* .sale-crd-hdr {
         font-size: 20px;
-    }
+    } */
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
