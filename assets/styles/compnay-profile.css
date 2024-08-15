@@ -19,6 +19,12 @@
     padding: 40px 0px 0px 0px;
 }
 
+a[href^="tel"] {
+    color: inherit;
+    text-decoration: none;
+    pointer-events: none;
+}
+
 .company-profile-para {
     font-family: Lato;
     font-size: clamp(14px, 2vw, 20px);
@@ -253,11 +259,13 @@
     .profile-bdy-banner-img {
         margin: 12px 0 12px 0;
     }
+
     .inquiru-button {
         height: 36px;
         font-size: 16px;
         line-height: 20px;
     }
+
     .tabs-body-part {
         padding: 10px 0px 0px 0px;
     }

@@ -213,6 +213,28 @@
     color: #000000;
 }
 
+.faq-tabs-posotion {
+    font-family: Lato;
+    font-size: clamp(18px, 4vw, 24px);
+    font-weight: 700;
+    line-height: 32px;
+    color: #020408;
+}
+
+.accordion-button:not(.collapsed)::after {
+    transform: var(--bs-accordion-btn-icon-transform);
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+
+}
+
+
+
+@media screen and (min-width: 1650px) {
+    .career-banner {
+        max-height: fit-content;
+    }
+}
+
 @media screen and (max-width: 1199px) {
     .offer-benefit-card {
         gap: inherit;
@@ -276,6 +298,9 @@
 
     .offer-para {
         margin-bottom: 10px;
+    }
+    .faq-tabs-posotion {
+        margin-bottom: 16px;
     }
 }
 

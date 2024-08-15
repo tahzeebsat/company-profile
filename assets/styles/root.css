@@ -1292,7 +1292,7 @@ select.form-select option:hover {
 }
 
 .slider_form .slick-dots {
-  bottom: -50px !important;
+  bottom: -38px !important;
 }
 
 /* slider */
@@ -1336,31 +1336,31 @@ select.form-select option:hover {
 
 @media screen and (min-width:1300px) and (max-width:1440px) {
   .slider_form .slick-next {
-    top: 107%;
+    top: 105%;
   }
 
   .slider_form .slick-prev {
-    top: 107%;
+    top: 105%;
   }
 }
 
 @media screen and (min-width:1200px) and (max-width:1299px) {
   .slider_form .slick-next {
-    top: 108%;
+    top: 105%;
   }
 
   .slider_form .slick-prev {
-    top: 108%;
+    top: 105%;
   }
 }
 
 @media screen and (max-width:1199px) {
   .slider_form .slick-next {
-    top: 109%;
+    top: 106%;
   }
 
   .slider_form .slick-prev {
-    top: 109%;
+    top: 106%;
   }
 }
 
