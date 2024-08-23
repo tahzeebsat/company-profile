@@ -54,7 +54,11 @@
     text-align: left;
     color: #667085;
 }
-
+.upload-file-btn:hover {
+    color: var(--bs-btn-hover-color);
+    background-color:white;
+    color: #667085;
+}
 .form-text-label-upload {
     font-family: Lato;
     font-size: 14px;
@@ -74,6 +78,7 @@
     font-weight: 500;
     line-height: 20px;
     color: #344054;
+
 }
 
 .upload-input-field-mian {
