@@ -39,6 +39,47 @@
     color: #0C1529;
 }
 
+.in-put-upload-file {
+    border: 1px solid #D0D5DD !important;
+    width: 621px;
+    height: 40px;
+    border-radius: 6px 0 0 6px !important;
+    border: 1px solid #D0D5DD;
+
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #667085;
+}
+
+.form-text-label-upload {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #0C1529;
+    margin-bottom: 8px;
+}
+
+.upload-file-btn {
+    border: 1px solid #D0D5DD;
+    background-color: #E6E8EC;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #344054;
+}
+
+.upload-input-field-mian {
+    max-width: 400px;
+}
+
 .inquiry-sub-hdr {
     color: #0C1529;
     font-family: Lato;

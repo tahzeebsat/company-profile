@@ -167,8 +167,7 @@
                 <div class="col-md-6 col-sm-6 mb-24 d-grid">
                     <label for="Phone" class="form-label form-label-inquirys">Phone <span
                             class="text-danger">*</span></label>
-                    <input type="number" class="phone-car-detail form-control  w-100"
-                        id="phone-inq-profile" />
+                    <input type="number" class="phone-car-detail form-control  w-100" id="phone-inq-profile" />
                     <div class="form-error d-none">We'll never share your email with anyone
                         else.</div>
                 </div>
@@ -204,7 +203,7 @@
                             id="faxFormControlInput" placeholder="Link" />
                     </div>
                 </div>
-                <div class="col-12">
+                <!-- <div class="col-12">
                     <div class="mb-3">
                         <label for="resume" class="form-label comman-sub-heading">Resume/CV<span
                                 class="text-danger">*</span></label>
@@ -222,23 +221,39 @@
                         <input type="file" id="fileInput" style="display: none;">
                         <div class="form-text">Accepted file types: pdf, doc, docx, txt, rtf</div>
                     </div>
+                </div> -->
+                <div class="col-12">
+                    <div class="mb-3 upload-input-field-mian">
+                        <div class="d-grid ">
+                            <label for="resumeUpload" class="form-label comman-sub-heading">Resume/CV<span
+                                    class="text-danger">*</span></label>
+                            <label class="form-text form-text-label-upload">Accepted file types : pdf, doc, docx</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="file" class="form-control" id="resumeUpload" style="display: none;"
+                                aria-label="Upload">
+                            <input type="text" class="form-control in-put-upload-file" placeholder="Choose File"
+                                id="displayFileName" aria-label="File name display" readonly>
+                            <button class="btn btn-outline-secondary upload-file-btn" type="button"
+                                id="resumeUploadButton">Browse</button>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-12">
-                    <div class="mb-3">
-                        <label for="resume" class="form-label comman-sub-heading">Cover Letter</label>
-                        <div>
-                            <span class="upload-link"
-                                onclick="document.getElementById('fileInput').click()">Attach</span>,
-                            <span class="upload-link"
-                                onclick="document.getElementById('fileInput').click()">Dropbox</span>,
-                            <span class="upload-link" onclick="document.getElementById('fileInput').click()">Google
-                                Drive</span>,
-                            <span class="upload-link-or">or</span>
-                            <span class="upload-link" onclick="document.getElementById('fileInput').click()">enter
-                                manually</span>
+                    <div class="mb-3 upload-input-field-mian">
+                        <div class="d-grid ">
+                            <label for="resumeUpload" class="form-label comman-sub-heading">Cover Letter<span
+                                    class="text-danger">*</span></label>
+                            <label class="form-text form-text-label-upload">Accepted file types : pdf, doc, docx</label>
                         </div>
-                        <input type="file" id="fileInput" style="display: none;">
-                        <div class="form-text">Accepted file types: pdf, doc, docx, txt, rtf</div>
+                        <div class="input-group">
+                            <input type="file" class="form-control" id="resumeUpload" style="display: none;"
+                                aria-label="Upload">
+                            <input type="text" class="form-control in-put-upload-file" placeholder="Choose File"
+                                id="displayFileName" aria-label="File name display" readonly>
+                            <button class="btn btn-outline-secondary upload-file-btn" type="button"
+                                id="resumeUploadButton">Browse</button>
+                        </div>
                     </div>
                 </div>
                 <div class="d-flex justify-content-center">
@@ -588,7 +603,18 @@
             useFullscreenPopup: false,
         });
     </script>
-
+    <script>
+        document.getElementById('resumeUploadButton').addEventListener('click', function () {
+            document.getElementById('resumeUpload').click();
+        });
+        document.getElementById('displayFileName').addEventListener('click', function () {
+            document.getElementById('resumeUpload').click();
+        });
+        document.getElementById('resumeUpload').addEventListener('change', function () {
+            var fileName = this.files[0] ? this.files[0].name : 'Choose File';
+            document.getElementById('displayFileName').value = fileName;
+        });
+    </script>
 </body>
 
 </html>
