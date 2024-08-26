@@ -5,7 +5,7 @@
 
 .driving-common-hdr {
     font-family: Sofia Pro;
-    font-size:clamp(16px, 4vw, 24px);
+    font-size: clamp(16px, 4vw, 24px);
     font-weight: 700;
     line-height: 36px;
     color: #0C1529;
@@ -237,6 +237,16 @@
     letter-spacing: -0.014em;
     color: #858a94;
     margin-bottom: 0px;
+}
+
+.faqs-para-japan {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    text-align: left;
+    color: #0C1529;
 }
 
 .acrd-bdy {

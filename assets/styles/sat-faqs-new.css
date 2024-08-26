@@ -19,6 +19,7 @@
   scrollbar-width: none;
   /* Firefox */
 }
+
 .tabs-container-inq {
   display: flex;
   overflow-x: auto;
@@ -26,6 +27,17 @@
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
   width: 95vw;
+}
+
+.faqs-para-2 {
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #858A94;
+  padding-right: 20px;
 }
 
 .tab {
@@ -76,6 +88,7 @@
   letter-spacing: -0.018em;
   text-align: left;
 }
+
 .form-label-rec {
   font-family: var(--font-family-Lato);
   font-size: clamp(14px, 2vw, 18px);
@@ -84,13 +97,16 @@
   text-align: left;
   color: #5d6370;
 }
+
 .faq-stil-qtin .form-texarea-inq {
   background-color: #f6f6f8;
 }
+
 .stil-qtn-place-input {
   height: 45px;
   background-color: #f6f6f8;
 }
+
 .check-box-lbl-rec {
   font-family: var(--font-family-Lato);
   font-size: 14px;
@@ -101,21 +117,24 @@
   color: #051128;
   padding-top: 2px;
 }
+
 .update-inquiry-btn {
-    font-family: var(--font-family-Lato);
-    font-size: 16px;
-    font-weight: 700;
-    text-align: center;
-    color: #ffffff;
-    height: 50px;
-    /* background-color: #2A9FE8; */
-    border: 0;
-    border-radius: 4px;
-    padding: 16px 10px 16px 10px;
+  font-family: var(--font-family-Lato);
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  height: 50px;
+  /* background-color: #2A9FE8; */
+  border: 0;
+  border-radius: 4px;
+  padding: 16px 10px 16px 10px;
 }
-.faqs-header-texture-qtion{
-    padding-bottom: 32px;
+
+.faqs-header-texture-qtion {
+  padding-bottom: 32px;
 }
+
 @media screen and (max-width: 786px) {
   .tab {
     padding: 4px 14px 4px 14px;
@@ -125,7 +144,8 @@
   .still-question-section {
     margin-top: 0 !important;
   }
+
   .faqs-header-texture-qtion {
     padding-bottom: 0px;
-}
+  }
 }
