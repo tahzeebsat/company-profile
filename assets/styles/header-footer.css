@@ -121,6 +121,13 @@
     line-height: 26px;
     color: #FFFFFF;
 }
+.comn-fotr-head-sub-japan {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #FFFFFF;
+}
 
 .social-address li {
     padding-block: 8px;
@@ -145,10 +152,31 @@
     font-weight: 700;
     line-height: 28px;
 }
+.overview-head-ftr-japan {
+    font-family: Lato;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: clamp(16px, 2vw, 18px);
+    font-weight: 700;
+    line-height: 28px;
+}
 
 .make-by-li {
     font-family: Lato;
     font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #FFFFFF;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+.make-by-li-japan {
+    font-family: Lato;
+    font-size: 16px;
     font-weight: 500;
     line-height: 26px;
     color: #FFFFFF;
@@ -661,7 +689,6 @@
 
     .btn-mailing-mobile {
         font-size: 12px;
-        width: max-content;
         height: 35px;
     }
 }

@@ -9,289 +9,158 @@
     <!-- fontawesome 5 -->
     <link rel="stylesheet" href="assets/styles/fonts/fontawesome5v/css/all.min.css" />
     <link rel="stylesheet" href="assets/styles/root.css">
-    <link rel="stylesheet" href="assets/styles/newDashborad.css">
+    <!-- <link rel="stylesheet" href="assets/styles/newDashborad.css"> -->
     <link rel="stylesheet" href="assets/styles/compnay-profile.css">
-    <link rel="stylesheet" href="assets/styles/sat-faqs-new.css">
+    <link rel="stylesheet" href="assets/styles/inquiry-form.css">
+    <link rel="stylesheet" href="assets/styles/plugins/intl-tel-input/intl.css" />
     <link rel="stylesheet" href="assets/styles/header-footer.css">
-
-    <title>Company Profile Japan</title>
+    <title>Inquiry Form</title>
     <style>
         @media screen and (min-width: 1300px) {
             .container {
                 max-width: 1266px;
             }
         }
+
+        body {
+            display: grid;
+            min-height: 100vh;
+        }
+
+        footer {
+            margin-top: auto;
+        }
     </style>
 </head>
 
 <body class="bg-white-900">
-
-    <!-- Top-Header -->
-    <section class="top-navbar-header top-nav-bar-header">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg py-3 ">
-                <div class="container-fluid nav-bar-main">
-                    <a href="#" class="navbar-brand">
-                        <!-- Logo Image -->
-                        <img src="assets/images/logo/logo-satjapan.svg" alt=""
-                            class="d-inline-block align-middle me-2 top-hdr-log-img">
-                    </a>
-                    <button data-bs-toggle="offcanvas" data-bs-target="#burger-menu-sidebar" class="navbar-toggler"
-                        type="button" aria-controls="navbarSupportedContent" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-                        <ul class="navbar-nav collapse-navbar-main ">
-                            <li class="nav-item active nav-item-custom-cls">
-                                <a href="#" class="nav-link nav-link-top-text">ホーム<span
-                                        class="visually-hidden">(current)</span></a>
-                            </li>
-                            <li class="nav-item nav-item-custom-cls ">
-                                <a href="#" class="nav-link nav-link-top-text">新車</a>
-                            </li>
-                            <li class="nav-item nav-item-custom-cls">
-                                <a href="#" class="nav-link nav-link-top-text ">中古車</a>
-                            </li>
-                            <li class="nav-item nav-item-custom-cls">
-                                <a href="company-profile-japan.html" class="nav-link nav-link-top-text active">自動車部品</a>
-                            </li>
-                            <li class="nav-item nav-item-custom-cls">
-                                <a href="/index-japan.html" class="nav-link nav-link-top-text ">会社概要</a>
-                            </li>
-                            <li class="nav-item nav-item-custom-cls">
-                                <a href="inquiry-form-japan.html" class="nav-link nav-link-top-text">お問い合わせフォーム</a>
-                            </li>
-                            <li class="nav-item nav-item-custom-cls">
-                                <a href="career-page-japan.html" class="nav-link nav-link-top-text">キャリア</a>
-                            </li>
-                        </ul>
-                    </div>
+   <!-- Top-Header -->
+ <section class="top-navbar-header top-nav-bar-header">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg py-3 ">
+            <div class="container-fluid nav-bar-main">
+                <a href="#" class="navbar-brand">
+                    <!-- Logo Image -->
+                    <img src="assets/images/logo/logo-satjapan.svg" alt=""
+                        class="d-inline-block align-middle me-2 top-hdr-log-img">
+                </a>
+                <button data-bs-toggle="offcanvas" data-bs-target="#burger-menu-sidebar" class="navbar-toggler"
+                    type="button" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav collapse-navbar-main ">
+                        <li class="nav-item active nav-item-custom-cls">
+                            <a href="#" class="nav-link nav-link-top-text">ホーム<span
+                                    class="visually-hidden">(current)</span></a>
+                        </li>
+                        <li class="nav-item nav-item-custom-cls ">
+                            <a href="#" class="nav-link nav-link-top-text">新車</a>
+                        </li>
+                        <li class="nav-item nav-item-custom-cls">
+                            <a href="#" class="nav-link nav-link-top-text ">中古車</a>
+                        </li>
+                        <li class="nav-item nav-item-custom-cls">
+                            <a href="company-profile-japan.html" class="nav-link nav-link-top-text">自動車部品</a>
+                        </li>
+                        <li class="nav-item nav-item-custom-cls">
+                            <a href="/index-japan.html" class="nav-link nav-link-top-text ">会社概要</a>
+                        </li>
+                        <li class="nav-item nav-item-custom-cls">
+                            <a href="inquiry-form-japan.html" class="nav-link nav-link-top-text active">お問い合わせフォーム</a>
+                        </li>
+                        <li class="nav-item nav-item-custom-cls">
+                            <a href="career-page-japan.html" class="nav-link nav-link-top-text">キャリア</a>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
-        </div>
-    </section>
+            </div>
+        </nav>
+    </div>
+</section>
     <!-- breadCrumb -->
     <section class="container">
         <nav style="--bs-breadcrumb-divider: '/'" aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item">
-                    <a href="/index.html" class="bread-link-home">ホーム</a>
+                    <a href="index.html" class="bread-link-home">ホーム</a>
                 </li>
                 <li class="breadcrumb-item clr-black-80" aria-current="page">
-                    <a href="/index.html" class="bread-link-next">会社概要</a>
+                    <a href="/inquiry-form.html" class="bread-link-next">お問い合わせフォーム</a>
                 </li>
             </ol>
         </nav>
     </section>
-    <!-- company-main-section  -->
-    <section class="container greating-section mb-32" id="dashboard_selection">
-        <div>
-            <div class="dash-item-2">
-                <div class="tab-pane fade show active" id="v-pills-Inquiry-Form" role="tabpanel"
-                    aria-labelledby="v-pills-Inquiry-Form-tab">
-                    <section>
-                        <div class="row mb-24">
-                            <h4 class="company-profile-hdr">代表者からのご挨拶</h4>
-                            <h6 class="company-profile-sub-hdr">世界への貴重な製品。</h6>
-                            <p class="company-profile-para">
-                                私たちは、日本の中古車や建設機械を輸出する会社です。
-                            </p>
-                            <p class="company-profile-para">
-                                2002年の創業以来、<span class="company-profile-spn-para">"世界に価値のある製品"</span>
-                                を基本理念に、厳選された調達と独自の流通システムにより、着実に事業を成長させてきました。2012年には、中国でのカスタムメイド生産を開始しました。
-                                それ以来、多くのお客様からご支持をいただき、当社の主力事業の一つに成長してきました。
-                                将来的には,海外に自動車生産工場を設立することを目標に、全従業員が世界中のお客様のニーズに応え続ける企業になるために努力していきます。
-                                <span class="company-profile-spn-para">"代表取締役マリク-サリーム"</span>
-                            </p>
-                        </div>
-                        <!-- <div>
-                            <img src="assets/images/banners/Company-profile-body-banner.png"
-                                class="profile-bdy-banner-img" alt="">
-                        </div> -->
-                    </section>
-                </div>
-
-                <div class=" auto-trading-iner">
-                    <div class="table-container margin-top-32 margin-bottom-32">
-                        <table class="table table-responsive{-sm|-md|-lg|-xl|-xxl}">
-                            <tbody>
-                                <tr>
-                                    <th scope="row" class="tble-hdr align-middle border-0">会社名</th>
-                                    <td class="tble-td-compny-name align-middle">
-                                        シャインオートトレーディング（株） （株）エヌ-ティ-ティ
-                                    </td>
-                                <tr>
-                                    <th scope="row" class="tble-hdr align-middle border-0">場所 </th>
-                                    <td class="tble-td align-middle">福島県いわき市泉町下川畑中156-1〒971-8183</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row" class="tble-hdr align-middle border-0">電話番号</th>
-                                    <td class="tble-td align-middle">0246-56-0695</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row" class="tble-hdr align-middle border-0">ファックス番号</th>
-                                    <td class="tble-td align-middle">0246-56-0736</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row" class="tble-hdr align-middle border-0">代表者 ( 麻里久　サリーム )</th>
-                                    <td class="tble-td align-middle"> 麻里久　サリーム </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row" class="tble-hdr align-middle border-0">
-                                        設立年月日
-                                    </th>
-                                    <td class="tble-td align-middle">月16,2002</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row" class="tble-hdr align-middle border-0">資本金</th>
-                                    <td class="tble-td align-middle">70万円 </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row" class="tble-hdr align-middle border-0">
-                                        従業員数
-                                    </th>
-                                    <td class="tble-td align-middle">10名</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row" class="tble-hdr align-middle border-0">
-                                        Duties Contents
-                                    </th>
-                                    <td class="tble-td align-middle">
-                                        <ul class="mb-0">
-                                            <li>
-                                                中古車-建設機械の買取
-                                            </li>
-                                            <li>
-                                                中古車-建設機械の輸出-販売
-                                            </li>
-                                            <li>
-                                                カスタムメイド車両生産事業
-                                            </li>
-                                            <li>一般車検-整備</li>
-                                            <li>トラック等のレンタル</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row" class="tble-hdr align-middle">輸出地域</th>
-                                    <td class="tble-td align-middle">
-                                        南アメリカ、アフリカ、東南アジア
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+    <section class=" container mb-32 inquiry-form-container-main position-relative">
+        <div class="form">
+            <div class="row">
+                <h1 class="inquiry-hdr py-3">お問い合わせフォーム</h1>
+                <div class="col-md-4 col-sm-6">
+                    <div class="mb-24">
+                        <label for="NameFormControlInput" class="form-label form-label-inquirys">
+                            名前 <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control comman-input-field-inq rounded-0"
+                            id="NameFormControlInput" placeholder="名前" />
                     </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="mb-24">
+                        <label for="EmaiFormControlInput" class="form-label form-label-inquirys">
+                            メール <span class="text-danger">*</span></label>
+                        <input type="email" class="form-control comman-input-field-inq rounded-0"
+                            id="EmaiFormControlInput" placeholder="メール" />
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-24 d-grid">
+                    <label for="Phone" class="form-label form-label-inquirys">郵便番号 <span
+                            class="text-danger">*</span></label>
+                    <input type="number" placeholder="123456" class="phone-car-detail form-control  w-100"
+                        id="phone-inq-profile" />
+                    <div class="form-error d-none">We'll never share your email with anyone
+                        else.</div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="mb-24">
+                        <label for="minicipleFormControlInput" class="form-label form-label-inquirys">
+                            電話番号</label>
+                        <select class="form-select comman-input-field-inq" aria-label="Default select example">
+                            <option selected class="slect-texture-slect">Pakistan</option>
+                            <option value="1" class="form-sect-inq-open">Select</option>
+                            <option value="2" class="form-sect-inq-open">Select</option>
+                            <option value="3" class="form-sect-inq-open">Select</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="mb-24">
+                        <label for="minicipleFormControlInput" class="form-label form-label-inquirys">
+                            ファックス番号</label>
+                        <select class="form-select comman-input-field-inq" aria-label="Default select example">
+                            <option selected class="slect-texture-slect">Karachi</option>
+                            <option value="1" class="form-sect-inq-open">Select</option>
+                            <option value="2" class="form-sect-inq-open">Select</option>
+                            <option value="3" class="form-sect-inq-open">Select</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="">
+                        <div class="d-flex justify-content-between align-items-md-center">
+                            <label for="textareaFormControlInput" class="form-label form-label-inquirys">住所、家番号など
+                                <span class="text-danger">*</span></label>
+                        </div>
+                        <textarea class="form-control form-texarea-inq" id="CodeFormControlInput" rows="3"
+                            placeholder="住所"></textarea>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="btn inquiru-button">更新お問い合わせ</button>
+
                 </div>
             </div>
-
-        </div>
         </div>
     </section>
-    <!-- our-mission-vision startr-->
-    <section class="container key-services-offered mb-32">
-        <div>
-            <h2 class="compmany-hdr mb-32">提供される主なサービス</h2>
-            <div class="key-services-iner">
-                <div class="row d-flex">
-                    <div class="col-md-4 col-sm-6 mb-3">
-                        <div class="company-key-services-crd">
-                            <div class="d-flex justify-content-center">
-                                <img src="assets/images/common/icons/company-car-icon.svg"
-                                    class="cust-img-satisfact-hhdr align-self-center" alt="" />
-                            </div>
-                            <div>
-                                <h3 class="used-card-hdr-comp mb-0">新しい日本語 <br>車の販売と購入</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 mb-3">
-                        <div class="company-key-services-crd">
-                            <div class="d-flex justify-content-center">
-                                <img src="assets/images/common/icons/company-car-key.svg"
-                                    class="cust-img-satisfact-hhdr align-self-center" alt="" />
-                            </div>
-                            <div>
-                                <h3 class="used-card-hdr-comp mb-0">中古日本語 <br>
-                                    車の販売と購入</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 mb-3">
-                        <div class="company-key-services-crd">
-                            <div class="d-flex justify-content-center">
-                                <img src="assets/images/common/icons/company-sale-auto-part.svg"
-                                    class="cust-img-satisfact-hhdr align-self-center" alt="" />
-                            </div>
-                            <div>
-                                <h3 class="used-card-hdr-comp mb-0">自動車の販売 <br> パーツ
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </section>
-    <!-- our-mission-vision end-->
-
-    <!-- Core Values of the Company section start-->
-    <section class="container core-values-company mb-32">
-        <div class="core-values-company-inner">
-            <h2 class="compmany-hdr mb-32">会社のコアバリュー</h1>
-                <div class="row mt-4 core-values-cards">
-                    <div class="col-lg-6 col-md-6 col-sm-12 mb-3">
-                        <div class="core-value-card d-flex">
-                            <img src="assets/images/common/icons/company-reliability.svg" class="core-value-img" alt="">
-                            <div>
-                                <h3 class="core-value-hdr">信頼性</h3>
-                                <p class="core-value-para">
-                                    私達は私達の顧客に最上質の使用された日本車を提供し、最もよい商習慣に続くように努力します。
-                                </p>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 mb-3">
-                        <div class="core-value-card d-flex">
-                            <img src="assets/images/common/icons/company-integrity.svg" class="core-value-img" alt="">
-                            <div>
-                                <h3 class="core-value-hdr">インテグリティ</h3>
-                                <p class="core-value-para">
-                                    私たちの取引慣行は、すべての取引における卓越性へのコミットメントによって駆動される無数の顧客の信頼を得るのを助けてきました。
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 mb-3">
-                        <div class="core-value-card d-flex">
-                            <img src="assets/images/common/icons/company-cust-satisfctn.svg" class="core-value-img"
-                                alt="">
-                            <div>
-                                <h3 class="core-value-hdr">顧客満足度 </h3>
-                                <p class="core-value-para">
-                                    土で、私達は24/7のカスタマーサービスを提供します
-                                    私達の顧客をに関する助ける援助
-                                    任意の問題またはクエリ。
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 mb-3">
-                        <div class="core-value-card d-flex">
-                            <img src="assets/images/common/icons/company-Innovation.svg" class="core-value-img" alt="">
-                            <div>
-                                <h3 class="core-value-hdr">イノベーション</h3>
-                                <p class="core-value-para">
-                                    私達は絶えず私達の顧客の展開の必要性を満たすために最も最近の技術および傾向を包含する私達のサービスの革新を提供するように努めます。
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </div>
-        </div>
-    </section>
-    <!-- Core Values of the Company section end-->
     <!-- footer Desktop -->
     <footer class="company-profile-footer d-none d-md-block">
         <div class="container footer-inner-section">
@@ -546,7 +415,7 @@
                     </span>
                 </li>
                 <li class="nav-item nav-item-custom-cls-mob" onclick="location.href='/company-profile-japan.html';">
-                    <a href="company-profile-japan.html" class="nav-link nav-link-top-text active">会社概要</a>
+                    <a href="company-profile-japan.html" class="nav-link nav-link-top-text">会社概要</a>
                     <span>
                         <i class="fas fa-chevron-right fs-10 right-nav-icon"></i>
                     </span>
@@ -558,7 +427,7 @@
                     </span>
                 </li>
                 <li class="nav-item nav-item-custom-cls-mob" onclick="location.href='/inquiry-form-japan.html';">
-                    <a href="inquiry-form-japan.html" class="nav-link nav-link-top-text">お問い合わせフォーム</a>
+                    <a href="inquiry-form-japan.html" class="nav-link nav-link-top-text active">お問い合わせフォーム</a>
                     <span>
                         <i class="fas fa-chevron-right fs-10 right-nav-icon"></i>
                     </span>
@@ -621,6 +490,17 @@
     <script src="assets/js/jquery.js"></script>
     <!-- custom script js files -->
     <script src="assets/js/script_h.js"></script>
+    <!-- phone utils js -->
+    <script src="assets/js/plugins/intl-tel-input/intl.js"></script>
+    <script src="assets/js/plugins/intl-tel-input/intlutils.js"></script>
+    <!-- // phone input -->
+    <script>
+        // phone input 1
+        const itlinputOne = document.querySelector("#phone-inq-profile");
+        const itiOne = window.intlTelInput(itlinputOne, {
+            useFullscreenPopup: false,
+        });
+    </script>
 </body>
 
 </html>
